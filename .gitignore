@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Numerous always-ignore extensions
 *.diff
 *.err
@@ -34,3 +35,6 @@ nbproject
 .CVS
 .idea
 node_modules
+=======
+.DS_Store
+>>>>>>> 630859769d0bd22fe5740b2e4819701665741f9b
