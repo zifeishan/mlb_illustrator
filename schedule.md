@@ -10,7 +10,7 @@ Schedule
     - Make sure naming rules for jsons
 
 * 8.7
-    - Game replay finished
+    - Game replay finished (!!!what? who? when? how?)
 
 * 8.8 
     - Ranking players by batting and defending ability using GameRank
