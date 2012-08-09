@@ -1,0 +1,16 @@
+circle.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+line.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.hero-unit {
+    background-color: #fff;
+    border-color: #999;
+    border-width: 1px;
+    border-style: solid;
+}

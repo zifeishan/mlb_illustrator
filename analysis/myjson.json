@@ -1,0 +1,32 @@
+{
+    "match": 
+    [ 
+        {
+        "info": 
+            {
+                "visteam":"DET",
+                "hometeam":"NYA",
+                "date":"2011/03/31",
+                "number":"0"
+            },
+        "nodes":
+            [ 
+                {
+                "id":"shanz001",
+                "name":"Zifei Shan",   
+                    "group":"BOS"       
+                    },
+                {"id":"li--s001","name":"Ichika","group":"NYA"},
+                {"id":"ni--z001","name":"Sumi","group":"NYA"}
+            ],
+        "links": 
+            [
+                {"source":1,"target":0,"value":1, 
+                "type":"def", "label":"Strike out"},
+                {"source":2,"target":0,"value":8
+                ,  "type":"att", "label":"Home Run"}
+
+            ]
+        }
+    ]
+}
