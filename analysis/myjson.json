@@ -15,15 +15,27 @@
                 "id":"shanz001",
                 "name":"Zifei Shan",   
                     "group":"BOS"       
-                    },
-                {"id":"li--s001","name":"Ichika","group":"NYA"},
-                {"id":"ni--z001","name":"Sumi","group":"NYA"}
+                    }
+                ,{"id":"li--s001","name":"Ichika","group":"NYA"}
+                ,{"id":"ni--z001","name":"Sumi","group":"NYN"}
+                ,{"id":"ni--z002","name":"Sumi","group":"BOS"}
+                ,{"id":"ni--z003","name":"Sumi","group":"LOS"}
+                ,{"id":"ni--z004","name":"Sumi","group":"HUS"}
+
             ],
         "links": 
             [
-                {"source":1,"target":0,"value":1, 
-                "type":"def", "label":"Strike out"},
-                {"source":2,"target":0,"value":8
+                {"source":1,"target":0,"value":1
+                ,"type":"def", "label":"Strike out"}
+                ,{"source":2,"target":0,"value":4
+                ,  "type":"att", "label":"Home Run"}
+                ,{"source":4,"target":3,"value":0.5
+                ,  "type":"def", "label":"Home Run"}
+                ,{"source":3,"target":5,"value":0.5
+                ,  "type":"att", "label":"Home Run"}
+                ,{"source":4,"target":3,"value":0.5
+                ,  "type":"att", "label":"Home Run"}
+                ,{"source":1,"target":4,"value":0.5
                 ,  "type":"att", "label":"Home Run"}
 
             ]
