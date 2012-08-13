@@ -32,6 +32,7 @@
 
     <!-- Begin -->
     <script type="text/javascript" src="../d3.v2.js"></script>
+    <script type="text/javascript" src="jsonutil.js"></script>
     
     <link type="text/css" rel="stylesheet" href="myforce.css"/>
   </head>
@@ -66,39 +67,64 @@
  
 
 <!-- BEGIN -->
-        <h1>GameRank: Ranking players by batting and pitching ability</h1>
-        <div class="hero-unit">
+      
+      <h1>GameRank: Ranking players by batting and pitching ability</h1>
+      
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span6">
+          <p>Year: 
+              <select id="selyear">
+              </select>
+          </p>
+        </div>
+        <div class="span6">
+          <p>Team: <select id="selteam"></select></p>
+        </div>
+      </div> 
+      
+        <div class="hero-unit" style="width:800; height:600">
           <!-- Body conte nt -->
             <div id="chart"></div>
             <script type="text/javascript" src="gamerank.js"></script>
 
         </div>
       
-
       <!-- Example row of columns -->
       <div class="row">
-        <div class="span6">
-          <p>Year: 
-              <select id="gameyear">
-              </select>
-          </p>
+        <div class="span4">
+          <h2>GameRank</h2>
+           <p>A ranking algorithm to measure the ability of pichers and batters...</p>
+           <p>To be done. Now we use indegree to measure the size of nodes.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
-        <div class="span6">
-          <p>Game No.: <select id="gameindex"></select></p>
+        <div class="span4">
+          <h2>How to use</h2>
+          <p>Be careful not to select the teams that does not play in this year.</p>
+          <p>Nodes with black borders are pitchers; nodes with white borders are batters.</p>
+          <p>Nodes with the same color inside are in the same team.</p>
+
+          <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
-      </div> 
+        <div class="span4">
+          <h2>Interacting with the graph</h2>
+           <p>Press "-" to zoom out, "+" to zoom in.</p>
+           <p>Click a node to fix it.</p>
+           <p>Mouse on a node to see his name.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        
+      </div>
+
+      <hr>
       
-      <footer>GameRank: see here.</footer>
+      <footer class="footer">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>Built by Zifei Shan and Shiyingxue Li, EECS@PKU</p>
+      </footer>
     </div> 
 
-    <script type="text/javascript">
-      var gameyear = d3.select("#gameyear");
-      for(var i = 1940; i < 2012; i++) {
-        gameyear
-          .append("option")
-          .attr("value", i).text(i);      
-        }
-    </script>
+    <script type="text/javascript" src="gameselect.js"></script>
 
     <!-- Le javascript
     ================================================== -->

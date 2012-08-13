@@ -1,0 +1,896 @@
+{"teamcode": [
+  {"ALT": {
+    "start": "1884",
+    "name": "Altoona Mountain Cities",
+    "league": "UA",
+    "end": "1884"
+  }},
+  {"ARI": {
+    "start": "0",
+    "name": "Arizona Diamondbacks",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"BFN": {
+    "start": "1885",
+    "name": "Buffalo Bisons",
+    "league": "NL",
+    "end": "1885"
+  }},
+  {"BFP": {
+    "start": "1890",
+    "name": "Buffalo Bisons",
+    "league": "PL",
+    "end": "1890"
+  }},
+  {"BL1": {
+    "start": "1874",
+    "name": "Baltimore Canaries",
+    "league": "NA",
+    "end": "1874"
+  }},
+  {"BL2": {
+    "start": "1891",
+    "name": "Baltimore Orioles",
+    "league": "AA",
+    "end": "1891"
+  }},
+  {"BLN": {
+    "start": "1899",
+    "name": "Baltimore Orioles",
+    "league": "NL",
+    "end": "1899"
+  }},
+  {"BL4": {
+    "start": "1873",
+    "name": "Baltimore Marylands",
+    "league": "NA",
+    "end": "1873"
+  }},
+  {"BLA": {
+    "start": "1902",
+    "name": "Baltimore Orioles",
+    "league": "AL",
+    "end": "1902"
+  }},
+  {"NYA": {
+    "start": "0",
+    "name": "New York Yankees",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"BLF": {
+    "start": "1915",
+    "name": "Baltimore Terrapins",
+    "league": "FL",
+    "end": "1915"
+  }},
+  {"BLU": {
+    "start": "1884",
+    "name": "Baltimore Unions",
+    "league": "UA",
+    "end": "1884"
+  }},
+  {"BOS": {
+    "start": "0",
+    "name": "Boston Red Sox",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"BR1": {
+    "start": "1872",
+    "name": "Brooklyn Eckfords",
+    "league": "NA",
+    "end": "1872"
+  }},
+  {"BR2": {
+    "start": "1875",
+    "name": "Brooklyn Atlantics",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"BR3": {
+    "start": "1889",
+    "name": "Brooklyn Dodgers",
+    "league": "AA",
+    "end": "1889"
+  }},
+  {"BRO": {
+    "start": "1957",
+    "name": "Brooklyn Dodgers",
+    "league": "NL",
+    "end": "1957"
+  }},
+  {"LAN": {
+    "start": "0",
+    "name": "Los Angeles Dodgers",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"BR4": {
+    "start": "1890",
+    "name": "Brooklyn Gladiators",
+    "league": "AA",
+    "end": "1890"
+  }},
+  {"BRF": {
+    "start": "1915",
+    "name": "Brooklyn Tip-Tops",
+    "league": "FL",
+    "end": "1915"
+  }},
+  {"BRP": {
+    "start": "1890",
+    "name": "Brooklyn Wonders",
+    "league": "PL",
+    "end": "1890"
+  }},
+  {"BS1": {
+    "start": "1875",
+    "name": "Boston Braves",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"BSN": {
+    "start": "1952",
+    "name": "Boston Braves",
+    "league": "NL",
+    "end": "1952"
+  }},
+  {"MLN": {
+    "start": "1965",
+    "name": "Milwaukee Braves",
+    "league": "NL",
+    "end": "1965"
+  }},
+  {"ATL": {
+    "start": "0",
+    "name": "Atlanta Braves",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"BSP": {
+    "start": "1890",
+    "name": "Boston Reds",
+    "league": "PL",
+    "end": "1890"
+  }},
+  {"BS2": {
+    "start": "1891",
+    "name": "Boston Reds",
+    "league": "AA",
+    "end": "1891"
+  }},
+  {"BSU": {
+    "start": "1884",
+    "name": "Boston Reds",
+    "league": "UA",
+    "end": "1884"
+  }},
+  {"BUF": {
+    "start": "1915",
+    "name": "Buffalo Feds",
+    "league": "FL",
+    "end": "1915"
+  }},
+  {"CH1": {
+    "start": "1871",
+    "name": "Chicago White Stockings",
+    "league": "NA",
+    "end": "1871"
+  }},
+  {"CH2": {
+    "start": "1875",
+    "name": "Chicago White Stockings",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"CHN": {
+    "start": "0",
+    "name": "Chicago Cubs",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"CHA": {
+    "start": "0",
+    "name": "Chicago White Sox",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"CHF": {
+    "start": "1915",
+    "name": "Chicago Whales",
+    "league": "FL",
+    "end": "1915"
+  }},
+  {"CHP": {
+    "start": "1890",
+    "name": "Chicago Pirates",
+    "league": "PL",
+    "end": "1890"
+  }},
+  {"CHU": {
+    "start": "1884",
+    "name": "Chicago Unions",
+    "league": "UA",
+    "end": "1884"
+  }},
+  {"CL1": {
+    "start": "1872",
+    "name": "Cleveland Forest Cities",
+    "league": "NA",
+    "end": "1872"
+  }},
+  {"CL2": {
+    "start": "1884",
+    "name": "Cleveland Spiders",
+    "league": "NL",
+    "end": "1884"
+  }},
+  {"CL3": {
+    "start": "1888",
+    "name": "Cleveland Spiders",
+    "league": "AA",
+    "end": "1888"
+  }},
+  {"CL4": {
+    "start": "1899",
+    "name": "Cleveland Spiders",
+    "league": "NL",
+    "end": "1899"
+  }},
+  {"CL5": {
+    "start": "1884",
+    "name": "Columbus Colts",
+    "league": "AA",
+    "end": "1884"
+  }},
+  {"CL6": {
+    "start": "1891",
+    "name": "Columbus Colts",
+    "league": "AA",
+    "end": "1891"
+  }},
+  {"CLE": {
+    "start": "0",
+    "name": "Cleveland Indians",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"CLP": {
+    "start": "1890",
+    "name": "Cleveland Infants",
+    "league": "PL",
+    "end": "1890"
+  }},
+  {"CN1": {
+    "start": "1880",
+    "name": "Cincinnati Reds",
+    "league": "NL",
+    "end": "1880"
+  }},
+  {"CN2": {
+    "start": "1889",
+    "name": "Cincinnati Reds",
+    "league": "AA",
+    "end": "1889"
+  }},
+  {"CIN": {
+    "start": "0",
+    "name": "Cincinnati Reds",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"CN3": {
+    "start": "1891",
+    "name": "Cincinnati Porkers",
+    "league": "AA",
+    "end": "1891"
+  }},
+  {"ML3": {
+    "start": "1891",
+    "name": "Milwaukee Brewers",
+    "league": "AA",
+    "end": "1891"
+  }},
+  {"CNU": {
+    "start": "1884",
+    "name": "Cincinnati Outlaw Reds",
+    "league": "UA",
+    "end": "1884"
+  }},
+  {"COL": {
+    "start": "0",
+    "name": "Colorado Rockies",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"DET": {
+    "start": "0",
+    "name": "Detroit Tigers",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"DTN": {
+    "start": "1888",
+    "name": "Detroit Wolverines",
+    "league": "NL",
+    "end": "1888"
+  }},
+  {"ELI": {
+    "start": "1873",
+    "name": "Elizabeth Resolutes",
+    "league": "NA",
+    "end": "1873"
+  }},
+  {"FLO": {
+    "start": "0",
+    "name": "Florida Marlins",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"FW1": {
+    "start": "1871",
+    "name": "Ft. Wayne Kekiongas",
+    "league": "NA",
+    "end": "1871"
+  }},
+  {"HOU": {
+    "start": "0",
+    "name": "Houston Astros",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"HR1": {
+    "start": "1875",
+    "name": "Hartford Dark Blues",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"HAR": {
+    "start": "1877",
+    "name": "Hartford Dark Blues",
+    "league": "NL",
+    "end": "1877"
+  }},
+  {"IN1": {
+    "start": "1878",
+    "name": "Indianapolis Blues",
+    "league": "NL",
+    "end": "1878"
+  }},
+  {"IN2": {
+    "start": "1884",
+    "name": "Indianapolis Blues",
+    "league": "AA",
+    "end": "1884"
+  }},
+  {"IN3": {
+    "start": "1889",
+    "name": "Indianapolis Hoosiers",
+    "league": "NL",
+    "end": "1889"
+  }},
+  {"IND": {
+    "start": "1914",
+    "name": "Indianapolis Hoosier-Feds",
+    "league": "FL",
+    "end": "1914"
+  }},
+  {"NEW": {
+    "start": "1915",
+    "name": "Newark Peppers",
+    "league": "FL",
+    "end": "1915"
+  }},
+  {"KC2": {
+    "start": "1889",
+    "name": "Kansas City Blues",
+    "league": "AA",
+    "end": "1889"
+  }},
+  {"KCA": {
+    "start": "0",
+    "name": "Kansas City Royals",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"KCF": {
+    "start": "1915",
+    "name": "Kansas City Packers",
+    "league": "FL",
+    "end": "1915"
+  }},
+  {"KCN": {
+    "start": "1886",
+    "name": "Kansas City Cowboys",
+    "league": "NL",
+    "end": "1886"
+  }},
+  {"KCU": {
+    "start": "1884",
+    "name": "Kansas City Unions",
+    "league": "UA",
+    "end": "1884"
+  }},
+  {"KEO": {
+    "start": "1875",
+    "name": "Keokuk Westerns",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"LAA": {
+    "start": "1964",
+    "name": "Los Angeles Angels",
+    "league": "AL",
+    "end": "1964"
+  }},
+  {"CAL": {
+    "start": "1996",
+    "name": "California Angels",
+    "league": "AL",
+    "end": "1996"
+  }},
+  {"ANA": {
+    "start": "0",
+    "name": "Anaheim Angels",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"LS1": {
+    "start": "1877",
+    "name": "Louisville Grays",
+    "league": "NL",
+    "end": "1877"
+  }},
+  {"LS2": {
+    "start": "1891",
+    "name": "Louisville Colonels",
+    "league": "AA",
+    "end": "1891"
+  }},
+  {"LS3": {
+    "start": "1899",
+    "name": "Louisville Colonels",
+    "league": "NL",
+    "end": "1899"
+  }},
+  {"MID": {
+    "start": "1872",
+    "name": "Middletown Mansfields",
+    "league": "NA",
+    "end": "1872"
+  }},
+  {"ML2": {
+    "start": "1878",
+    "name": "Milwaukee Cream Citys",
+    "league": "NL",
+    "end": "1878"
+  }},
+  {"MLA": {
+    "start": "1901",
+    "name": "Milwaukee Brewers",
+    "league": "AL",
+    "end": "1901"
+  }},
+  {"SLA": {
+    "start": "1953",
+    "name": "St. Louis Browns",
+    "league": "AL",
+    "end": "1953"
+  }},
+  {"BAL": {
+    "start": "0",
+    "name": "Baltimore Orioles",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"MLU": {
+    "start": "1884",
+    "name": "Milwaukee Grays",
+    "league": "UA",
+    "end": "1884"
+  }},
+  {"MON": {
+    "start": "2004",
+    "name": "Montreal Expos",
+    "league": "NL",
+    "end": "2004"
+  }},
+  {"WAS": {
+    "start": "0",
+    "name": "Washington Nationals",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"NH1": {
+    "start": "1875",
+    "name": "New Haven Elm Cities",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"NY2": {
+    "start": "1875",
+    "name": "New York Mutuals",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"NY3": {
+    "start": "1876",
+    "name": "New York Mutuals",
+    "league": "NL",
+    "end": "1876"
+  }},
+  {"NY4": {
+    "start": "1887",
+    "name": "New York Metropolitans",
+    "league": "AA",
+    "end": "1887"
+  }},
+  {"NYN": {
+    "start": "0",
+    "name": "New York Mets",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"NYP": {
+    "start": "1890",
+    "name": "New York Giants",
+    "league": "PL",
+    "end": "1890"
+  }},
+  {"PH1": {
+    "start": "1875",
+    "name": "Philadelphia Athletics",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"PHN": {
+    "start": "1876",
+    "name": "Philadelphia Athletics",
+    "league": "NL",
+    "end": "1876"
+  }},
+  {"PH2": {
+    "start": "1875",
+    "name": "Philadelphia White Stockings",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"PH3": {
+    "start": "1875",
+    "name": "Philadelphia Centennials",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"PH4": {
+    "start": "1891",
+    "name": "Philadelphia Athletics",
+    "league": "AA",
+    "end": "1891"
+  }},
+  {"PHA": {
+    "start": "1954",
+    "name": "Philadelphia Athletics",
+    "league": "AL",
+    "end": "1954"
+  }},
+  {"KC1": {
+    "start": "1967",
+    "name": "Kansas City Athletics",
+    "league": "AL",
+    "end": "1967"
+  }},
+  {"OAK": {
+    "start": "0",
+    "name": "Oakland Athletics",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"PHP": {
+    "start": "1890",
+    "name": "Philadelphia Quakers",
+    "league": "PL",
+    "end": "1890"
+  }},
+  {"PHU": {
+    "start": "1884",
+    "name": "Philadelphia Keystones",
+    "league": "UA",
+    "end": "1884"
+  }},
+  {"PRO": {
+    "start": "1885",
+    "name": "Providence Grays",
+    "league": "NL",
+    "end": "1885"
+  }},
+  {"PT1": {
+    "start": "1886",
+    "name": "Pittsburgh Pirates",
+    "league": "AA",
+    "end": "1886"
+  }},
+  {"PIT": {
+    "start": "0",
+    "name": "Pittsburgh Pirates",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"PTF": {
+    "start": "1915",
+    "name": "Pittsburgh Rebels",
+    "league": "FL",
+    "end": "1915"
+  }},
+  {"PTP": {
+    "start": "1890",
+    "name": "Pittsburgh Burghers",
+    "league": "PL",
+    "end": "1890"
+  }},
+  {"PTU": {
+    "start": "1884",
+    "name": "Pittsburgh Unions",
+    "league": "UA",
+    "end": "1884"
+  }},
+  {"RC1": {
+    "start": "1871",
+    "name": "Rockford Forest Citys",
+    "league": "NA",
+    "end": "1871"
+  }},
+  {"RC2": {
+    "start": "1890",
+    "name": "Rochester Hop Bitters",
+    "league": "AA",
+    "end": "1890"
+  }},
+  {"RIC": {
+    "start": "1884",
+    "name": "Richmond Virginias",
+    "league": "AA",
+    "end": "1884"
+  }},
+  {"SDN": {
+    "start": "0",
+    "name": "San Diego Padres",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"SE1": {
+    "start": "1969",
+    "name": "Seattle Pilots",
+    "league": "AL",
+    "end": "1969"
+  }},
+  {"MIL": {
+    "start": "1997",
+    "name": "Milwaukee Brewers",
+    "league": "AL",
+    "end": "1997"
+  }},
+  {"MIL": {
+    "start": "0",
+    "name": "Milwaukee Brewers",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"SEA": {
+    "start": "0",
+    "name": "Seattle Mariners",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"SL1": {
+    "start": "1875",
+    "name": "St. Louis Red Stockings",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"SL2": {
+    "start": "1875",
+    "name": "St. Louis Brown Stockings",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"SL3": {
+    "start": "1877",
+    "name": "St. Louis Brown Stockings",
+    "league": "NL",
+    "end": "1877"
+  }},
+  {"SL4": {
+    "start": "1891",
+    "name": "St. Louis Cardinals",
+    "league": "AA",
+    "end": "1891"
+  }},
+  {"SLN": {
+    "start": "0",
+    "name": "St. Louis Cardinals",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"SLF": {
+    "start": "1915",
+    "name": "St. Louis Terriers",
+    "league": "FL",
+    "end": "1915"
+  }},
+  {"SLU": {
+    "start": "1884",
+    "name": "St. Louis Maroons",
+    "league": "UA",
+    "end": "1884"
+  }},
+  {"SL5": {
+    "start": "1886",
+    "name": "St. Louis Maroons",
+    "league": "NL",
+    "end": "1886"
+  }},
+  {"SPU": {
+    "start": "1884",
+    "name": "St. Paul Saints",
+    "league": "UA",
+    "end": "1884"
+  }},
+  {"SR1": {
+    "start": "1879",
+    "name": "Syracuse Stars",
+    "league": "NL",
+    "end": "1879"
+  }},
+  {"SR2": {
+    "start": "1890",
+    "name": "Syracuse Stars",
+    "league": "AA",
+    "end": "1890"
+  }},
+  {"TBA": {
+    "start": "0",
+    "name": "Tampa Bay Devil Rays",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"TL1": {
+    "start": "1884",
+    "name": "Toledo Blue Stockings",
+    "league": "AA",
+    "end": "1884"
+  }},
+  {"TL2": {
+    "start": "1890",
+    "name": "Toledo Maumees",
+    "league": "AA",
+    "end": "1890"
+  }},
+  {"TOR": {
+    "start": "0",
+    "name": "Toronto Blue Jays",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"TRN": {
+    "start": "1882",
+    "name": "Troy Trojans",
+    "league": "NL",
+    "end": "1882"
+  }},
+  {"NY1": {
+    "start": "1957",
+    "name": "New York Giants",
+    "league": "NL",
+    "end": "1957"
+  }},
+  {"SFN": {
+    "start": "0",
+    "name": "San Francisco Giants",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"TRO": {
+    "start": "1872",
+    "name": "Troy Haymakers",
+    "league": "NA",
+    "end": "1872"
+  }},
+  {"WIL": {
+    "start": "1884",
+    "name": "Wilmington Quicksteps",
+    "league": "UA",
+    "end": "1884"
+  }},
+  {"WOR": {
+    "start": "1882",
+    "name": "Worcester Ruby Legs",
+    "league": "NL",
+    "end": "1882"
+  }},
+  {"PHI": {
+    "start": "0",
+    "name": "Philadelphia Phillies",
+    "league": "NL",
+    "end": "0"
+  }},
+  {"WS1": {
+    "start": "1960",
+    "name": "Washington Senators",
+    "league": "AL",
+    "end": "1960"
+  }},
+  {"MIN": {
+    "start": "0",
+    "name": "Minnesota Twins",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"WS2": {
+    "start": "1971",
+    "name": "Washington Senators",
+    "league": "AL",
+    "end": "1971"
+  }},
+  {"TEX": {
+    "start": "0",
+    "name": "Texas Rangers",
+    "league": "AL",
+    "end": "0"
+  }},
+  {"WS3": {
+    "start": "1872",
+    "name": "Washington Olympics",
+    "league": "NA",
+    "end": "1872"
+  }},
+  {"WS4": {
+    "start": "1872",
+    "name": "Washington Nationals",
+    "league": "NA",
+    "end": "1872"
+  }},
+  {"WS5": {
+    "start": "1873",
+    "name": "Washington Nationals",
+    "league": "NA",
+    "end": "1873"
+  }},
+  {"WS6": {
+    "start": "1875",
+    "name": "Washington Nationals",
+    "league": "NA",
+    "end": "1875"
+  }},
+  {"WS7": {
+    "start": "1884",
+    "name": "Washington Nationals",
+    "league": "AA",
+    "end": "1884"
+  }},
+  {"WS8": {
+    "start": "1889",
+    "name": "Washington Senators",
+    "league": "NL",
+    "end": "1889"
+  }},
+  {"WS9": {
+    "start": "1891",
+    "name": "Washington Senators",
+    "league": "AA",
+    "end": "1891"
+  }},
+  {"WSN": {
+    "start": "1899",
+    "name": "Washington Senators",
+    "league": "NL",
+    "end": "1899"
+  }},
+  {"WSU": {
+    "start": "1884",
+    "name": "Washington Nationals",
+    "league": "UA",
+    "end": "1884"
+  }}
+]}

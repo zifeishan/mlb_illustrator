@@ -113,11 +113,11 @@
       <li>
         <iframe class="github-btn" src="http://markdotto.github.com/github-buttons/github-btn.html?user=twitter&repo=bootstrap&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="98px" height="20px"></iframe>
       </li>
- -->      <li class="follow-btn">
-        <a href="https://twitter.com/twbootstrap" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @MLBIllustrator</a>
+ -->  <li id = "follow-btn"  class="follow-btn">
+        
       </li>
-      <li class="tweet-btn">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://twitter.github.com/bootstrap/" data-count="horizontal" data-via="twbootstrap" data-related="mdo:Creator of Twitter Bootstrap">Tweet (TBD)</a>
+      <li id = "tweet-btn" class="tweet-btn">
+        
       </li>
     </ul>
   </div>
@@ -276,6 +276,29 @@
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(t, s);
       })();
+      </script>
+      <script type="text/javascript" src="d3.v2.js"></script>
+      <script type="text/javascript">
+      d3.select("#follow-btn")
+        .append("a")
+          .attr("href", "https://twitter.com/MLBillustrator")
+          
+          .attr("class", "twitter-follow-button" )
+          .attr("data-link-color", "#0069D6" )
+          .attr("data-show-count", "true")
+          .text("Follow @MLBillustrator")
+      ;
+      d3.select("#tweet-btn")
+        .append("a")
+          .attr("href", "https://twitter.com/share" )
+          
+          .attr("class", "twitter-share-button" )
+          .attr("data-url", "http://zifeishan.github.com/mlb_illustrator/index.html")
+          .attr("data-count", "horizontal")
+          .attr("data-via", "MLBillustrator" )
+          .attr("data-related", "mdo:Creator of MLBillustrator")
+          .text("Tweet")
+      ;
     </script>
 
   </body>
