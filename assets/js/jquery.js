@@ -5089,13 +5089,24 @@ if ( document.querySelectorAll ) {
 			pseudoWorks = false;
 
 		try {
-			// This should fail with an exception
-			// Gecko does not error, returns false instead
-			matches.call( document.documentElement, "[test!='']:sizzle" );
+// This should fail with an exception
+// Gecko does not error, returns false instead
+// <orig. $jquery-1.5:>
+// matches.call( document.documentElement, "[test!='']:sizzle" );
+// <proposal to Ticket #7535, 2011-03-24:>
+  if( ! html.mozMatchesSelector || document.currentScript ){
+    // matches.call( html, "[test!='']:sizzle" );
+  }
+//else{
+// /*FF lt 4*/
+//}
 
-		} catch( pseudoError ) {
-			pseudoWorks = true;
-		}
+
+} catch( pseudoError ) {
+    pseudoWorks = true;
+  }
+  // <testing only>
+  // alert('MalformedSelectorException thrown: ' + pseudoWorks );
 
 		Sizzle.matchesSelector = function( node, expr ) {
 			// Make sure that attribute selectors are quoted

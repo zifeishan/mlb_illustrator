@@ -31,7 +31,7 @@
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
 
     <!-- Begin -->
-    <script type="text/javascript" src="../d3.v2.js"></script>
+    <script type="text/javascript" src="../d3.v2.min.js"></script>
     <script type="text/javascript" src="jsonutil.js"></script>
     
     <link type="text/css" rel="stylesheet" href="myforce.css"/>
@@ -69,17 +69,25 @@
 <!-- BEGIN -->
       
       <h1>GameRank: Ranking players by batting and pitching ability</h1>
-      
+      <hr />
       <!-- Example row of columns -->
       <div class="row">
-        <div class="span6">
+        <div class="span4">
           <p>Year: 
               <select id="selyear">
               </select>
           </p>
         </div>
-        <div class="span6">
+        <div class="span4">
           <p>Team: <select id="selteam"></select></p>
+        </div>
+        <div class="span4">
+          <p>Rank by: 
+              <select id="selrank">
+                <option value="GameRank" default="1">GameRank</option>
+                <option value="InDegree">InDegree</option>
+              </select>
+          </p>
         </div>
       </div> 
       
@@ -93,23 +101,25 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="span4">
-          <h2>GameRank</h2>
-           <p>A ranking algorithm to measure the ability of pichers and batters...</p>
-           <p>To be done. Now we use indegree to measure the size of nodes.</p>
+          <h2>What is GameRank</h2>
+           <p>A ranking algorithm to measure the ability of pichers and batters!</p>
+           <p>Intuition from PageRank and HITS.</p>
+           <p>If a batter wins over good pitchers when hitting, then he is a good batter; if a pitcher wins over good batters when pitching, then he is a good pitcher.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
         <div class="span4">
           <h2>How to use</h2>
-          <p>Be careful not to select the teams that does not play in this year.</p>
+          <p>First, select the year of the game; then, select the team. Then you can see the visualization results. If you need, you can change the ranking metric.</p>
           <p>Nodes with black borders are pitchers; nodes with white borders are batters.</p>
           <p>Nodes with the same color inside are in the same team.</p>
+          <p>Yellow edges indicates that a batter makes a successful attack; blue edges indicates that a pitcher makes a successful defend.</p>
 
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
         <div class="span4">
-          <h2>Interacting with the graph</h2>
+          <h2>Interactions</h2>
            <p>Press "-" to zoom out, "+" to zoom in.</p>
-           <p>Click a node to fix it.</p>
+           <p>Click a node to fix its location on the screen.</p>
            <p>Mouse on a node to see his name.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
        </div>

@@ -1,8 +1,9 @@
 var gameyear = d3.select("#selyear");
 var gameindex = d3.select("#selteam");
+var gamerank = d3.select("#selrank");
 
 // for(var i = 1940; i < 2012; i++) {
-for(var i = 2010; i < 2012; i++) {
+for(var i = 2011; i >= 2000; i--) {
   gameyear
     .append("option")
     .attr("value", i).text(i);      
@@ -12,7 +13,38 @@ RefreshTeams();
 gameyear.on("change", RefreshLayout);
 gameyear.on("change", RefreshTeams);
 gameindex.on("change", RefreshLayout);
+gamerank.on("change", RefreshSize);
 
+function RefreshSize() {
+  if(!nodes)
+    return;
+  var y = document.getElementById("selrank");
+  var rankby = y.options[y.selectedIndex].value;
+  if(rankby == "GameRank")
+  {
+      for(var i = 0; i < nodes.length; i++) 
+        if(nodes[i].FP == "1")//pitcher
+          Radius[i] = GR[1][i];
+        else
+          Radius[i] = GR[0][i];
+  }
+  else
+  {
+      // Set Indegrees as Radius
+      for(var i = 0; i < nodes.length; i++)
+          Radius[i] = Math.sqrt(InDegrees[i]);
+      Normalize(Radius, 0, 30);
+  }
+  for(var i = 0; i < nodes.length; i++) {
+    var node = svg.selectAll("circle.node");
+    d3.select(node[0][i])
+      .attr("r", Radius[i]);
+    node.selectAll("title")
+      .text(function(d) { return d.name + Radius[d.index]; 
+      });
+  }
+  
+}
 function RefreshLayout() {
   var y = document.getElementById("selyear");
   var year = y.options[y.selectedIndex].value;
@@ -33,12 +65,18 @@ function RefreshLayout() {
 
 function RefreshTeams()
 {
+  // console.log("Here");
   var TeamCodes = d3.json("../data/teamcode.json",function(json){
+
+    // console.log(json);
+    if(!json)
+      return;
 
     var y = document.getElementById("selyear");
     var year = y.options[y.selectedIndex].value;
 
-    for(var sub in json.teamcode)
+    gameindex.selectAll("option").remove();
+    for(var sub = 0; sub < json.teamcode.length; sub++)
     {
       var pair = json.teamcode[sub];
 
@@ -51,7 +89,7 @@ function RefreshTeams()
           // console.log(pair[key].end);
           continue;
         }
-        if(pair[key].begin != 0 && pair[key].begin < year)
+        if(pair[key].begin > year)
           continue;
         var v = pair[key];
           gameindex

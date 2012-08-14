@@ -2,6 +2,7 @@ var width = 800,
     height = 500;
 var color = d3.scale.category20();
 
+var nodes, links, Radius, InDegrees, GR;
 
 var force = d3.layout.force()
     .charge(-120)
@@ -13,7 +14,9 @@ var svg = d3.select("#chart").append("svg")
     .attr("width", width)
     .attr("height", height);
 svg.remove();
-// d3.json("../data/2010ANA.EVA.json", LayoutJson);
+
+//debug
+// d3.json("../data/games/2010seve/2010ANA.json", LayoutJson);
 // d3.json("myjson.json", LayoutJson);
 
 function LayoutJson(json) {
@@ -23,14 +26,6 @@ function LayoutJson(json) {
     return;
 
   }
-
-  // We have to aggregate the index...
-  // var allnodes = new Array();
-  // var alllinks = new Array();
-
-  // var counter
-  // for(var i = 0; i < match.length; i++)
-  //     allnodes.
 
   var gameindex = d3.select("#gameindex");
   for(var i = 0; i < json.match.length; i++) {
@@ -42,23 +37,25 @@ function LayoutJson(json) {
   // var matchID = gameindex.textContent;
   // if(matchID == "") matchID = 0;
   // var thisMatch = json.match[matchID];
-  var nodes = new Array();
-  var links = new Array();
-  var SelMatches = {};
-  SelMatches.nodes = nodes;
-  SelMatches.links = links;
-  AggregateNodes(json.match, nodes, links);
-  console.log(nodes);
-  console.log(links);
+  var allnodes = [], alllinks = [];
+  var SelMatches = {"nodes":[], "links":[]};
+  AggregateNodes(json.match, allnodes, alllinks);
+  SelMatches.nodes = allnodes;
+  SelMatches.links = alllinks;
+  console.log(allnodes);
+  console.log(alllinks);
 
 
   // var thisMatch = json.match[0];
   var thisMatch = SelMatches;
 
   var numNodes = thisMatch.nodes.length;
-  force.linkDistance(300 / Math.sqrt(1+numNodes))
-    .friction(0.9)
-    .gravity(0.03 * Math.sqrt(1+numNodes));
+  var numEdges = thisMatch.links.length;
+  var density = numEdges / (numNodes * numNodes + 1);
+  force.linkDistance(3000 / Math.sqrt(1+numNodes) * density)
+    .friction(0.7)
+    .gravity(0.15 * Math.sqrt(1+numNodes))
+    .charge(-70000 * density)
     ;
 
   force
@@ -70,7 +67,18 @@ function LayoutJson(json) {
       .data(thisMatch.links)
     .enter().append("line")
       .attr("class", "link")
-      .style("stroke-width", function(d) { return Math.sqrt(d.value); });
+      .style("stroke-width", function(d) { 
+        //debug: only show attack edges
+        //DEBUG
+        // if(d.type=="def") return 0;
+        return Math.sqrt(d.value); 
+
+      })
+      .style("stroke", function(d) { 
+        if(d.type=="def") return "rgb(100, 220,255)";
+        else return "rgb(255,220,100)";
+
+      });
 
   // functions for all nodes
   var node = svg.selectAll("circle.node")
@@ -124,6 +132,13 @@ function LayoutJson(json) {
     if(d.keyCode == 189)  // =
       force.gravity(force.gravity()+0.1)
       .start();
+     if(d.keyCode == 188)  // ,
+      force.linkDistance(force.linkDistance()-5 > 5? force.linkDistance()-5 : 5)
+      ;
+
+    if(d.keyCode == 190)  // .
+      force.linkDistance(force.linkDistance()+5)
+      ;
      
   };  
 
@@ -166,17 +181,39 @@ function LayoutJson(json) {
 
   //Calc Radius (using Indegree)
   
-  var nodes = thisMatch.nodes;
-  var links = thisMatch.links;
-  var Radius = GetInDegrees(nodes, links);
+  nodes = thisMatch.nodes;
+  links = thisMatch.links;
   
-  for(var i = 0; i < nodes.length; i++)
-    Radius[i] = 5*Math.sqrt(1+Radius[i]);
+  Radius = [];
+  InDegrees = GetInDegrees(nodes, links);
+  GR = GetGameRanks(nodes, links, 0.15);
+
+  // //collect max GR
+  // var max = [0, 0];
+  // for(var i = 0; i < nodes.length; i++) 
+  //   for(var t = 0; t < 2; t++)
+  //     if(max[t] < GR[t][i]) 
+  //       max[t] = GR[t][i];
+
+  // console.log("MAX: ", max[0], max[1]);
+  
+  Normalize(GR[0], 0, 30);
+  Normalize(GR[1], 0, 30);
+  //Set GR as Radius
+  for(var i = 0; i < nodes.length; i++) 
+    if(nodes[i].FP == "1")//pitcher
+      Radius[i] = GR[1][i];
+    else
+      Radius[i] = GR[0][i];
+  // AdjustToY(Radius, 30);
+
 
   for(var i = 0; i < nodes.length; i++) {
     d3.select(node[0][i])
       .attr("r", Radius[i]);
-      // console.log(Radius[i]);
+  node.selectAll("title")
+      .text(function(d) { return d.name + Radius[d.index]; 
+      });
   }
 
 }
