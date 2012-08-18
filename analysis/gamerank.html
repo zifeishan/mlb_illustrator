@@ -49,11 +49,17 @@
           <a class="brand" href="../index.html">MLB Illustrator</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li>
+            <li>
                 <a href="../index.html">Overview</a>
               </li>
               <li class="active">
-                <a href="#">GameRank</a>
+                <a href="gamerank.html">Player Rank by Team</a>
+              </li>
+              <li >
+                <a href="gamerank-year.html">Player Rank of All Teams</a>
+              </li>
+              <li>
+                <a href="team.html">Team Rank</a>
               </li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -68,7 +74,8 @@
 
 <!-- BEGIN -->
       
-      <h1>GameRank: Ranking players by batting and pitching ability</h1>
+      <h1>Player Ranking</h1>
+      <p>Featuring GameRank algorithm: Ranking players by batting and pitching ability</p>
       <hr />
       <!-- Example row of columns -->
       <div class="row">
@@ -85,7 +92,7 @@
           <p>Rank by: 
               <select id="selrank">
                 <option value="GameRank" default="1">GameRank</option>
-                <option value="InDegree">InDegree</option>
+                <option value="InDegree">OutDegree (times of nice plays)</option>
               </select>
           </p>
         </div>

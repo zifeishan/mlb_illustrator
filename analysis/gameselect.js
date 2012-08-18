@@ -2,6 +2,9 @@ var gameyear = d3.select("#selyear");
 var gameindex = d3.select("#selteam");
 var gamerank = d3.select("#selrank");
 
+gameyear.append("option")
+    .text("Please select a year");
+
 // for(var i = 1940; i < 2012; i++) {
 for(var i = 2011; i >= 2000; i--) {
   gameyear
@@ -76,6 +79,11 @@ function RefreshTeams()
     var year = y.options[y.selectedIndex].value;
 
     gameindex.selectAll("option").remove();
+
+    gameindex.append("option")
+    .text("Please select a team");
+
+
     for(var sub = 0; sub < json.teamcode.length; sub++)
     {
       var pair = json.teamcode[sub];

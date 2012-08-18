@@ -288,3 +288,4 @@ function Normalize(array, minR, maxR)
     array[i] = minR + (maxR - minR) * array[i] / max;
     
 }
+

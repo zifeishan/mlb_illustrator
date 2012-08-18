@@ -11,8 +11,12 @@ var force = d3.layout.force()
     ;
 
 var svg = d3.select("#chart").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+width = chart.offsetWidth;
+height = chart.offsetHeight;
+svg.attr("width", width);
+svg.attr("height", height);
+force.size([width, height]).start();
+
 svg.remove();
 
 //debug
@@ -123,6 +127,8 @@ function LayoutJson(json) {
     // // console.log(d);
     // this.setAttribute("r", y);
   });  
+  //TODO mite be reversed
+  var running = true;
   document.onkeyup = function(d){
     console.log(d);
     if(d.keyCode == 187)  // -
@@ -132,16 +138,32 @@ function LayoutJson(json) {
     if(d.keyCode == 189)  // =
       force.gravity(force.gravity()+0.1)
       .start();
-     if(d.keyCode == 188)  // ,
-      force.linkDistance(force.linkDistance()-5 > 5? force.linkDistance()-5 : 5)
-      ;
 
-    if(d.keyCode == 190)  // .
-      force.linkDistance(force.linkDistance()+5)
-      ;
+    if(d.keyCode == 13) // ENTER
+      if(running) {
+        force.stop();
+        running = false;
+      } else {
+        force.start();
+        running = true;
+      }
+    //  if(d.keyCode == 188)  // ,
+    //   force.linkDistance(force.linkDistance()-5 > 5? force.linkDistance()-5 : 5)
+    //   ;
+
+    // if(d.keyCode == 190)  // .
+    //   force.linkDistance(force.linkDistance()+5)
+    //   ;
      
   };  
 
+  window.onresize = function(d) {
+    width = chart.offsetWidth;
+    height = chart.offsetHeight;
+    svg.attr("width", width);
+    svg.attr("height", height);
+    force.size([width, height]).start();
+  }
 
   // how to bind a OnChange to the select???
   // var lastTickGame = 0;
@@ -211,7 +233,7 @@ function LayoutJson(json) {
   for(var i = 0; i < nodes.length; i++) {
     d3.select(node[0][i])
       .attr("r", Radius[i]);
-  node.selectAll("title")
+    node.selectAll("title")
       .text(function(d) { return d.name + Radius[d.index]; 
       });
   }
