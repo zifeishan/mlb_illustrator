@@ -1,3 +1,6 @@
+var linkMap = [{},{}]; // att 0, def 1
+var edgeMap = {};      // all
+
 // only add something useful
 function AddNode(indexIdSub, nodesout, oldnode)
 {
@@ -88,6 +91,7 @@ function GetGameRanks(nodes, orilinks, beta)
     // B, P
     var GR = [[], []];
     var links = [{}, {}];  //links[type][f][t] = w
+    linkMap = links;
         // links[0]: att edges
         // links[1]: def edges
     var nodenum = [0, 0];
@@ -114,25 +118,7 @@ function GetGameRanks(nodes, orilinks, beta)
         totw[type][t] += w;
     }
 
-    //guarantee: same!
-    // for(var type = 0; type < 2; type++)
-    // {
-        
-    //     for(var j = 0; j < n; j++)
-    //     {
-    //         var sum = 0;
-
-    //         for(var i = 0; i < n; i++)
-
-    //             if(links[type][i] && links[type][i][j])
-    //             {
-    //                 sum += links[type][i][j];
-    //             }
-    //         if(sum == 0)
-    //             continue;
-    //         console.log(sum - totw[type][j]);
-    //     }
-    // }
+    //guarantee: "links" same!
 
     //find danglings and totw
     for(var i = 0; i < n; i++) {
@@ -154,17 +140,6 @@ function GetGameRanks(nodes, orilinks, beta)
         for(var type = 0; type < 2; type++)
             GR[type][i] = 1.0 / n;
 
-    // //init GR
-    // for(var i = 0; i < n; i++) 
-    //     for(var type = 0; type < 2; type++)
-    //         GR[type][i] = 1.0 / nodenum[type];
-    // // console.log(danglings);
-    // for(var type = 0; type < 2; type++)
-    //     for(var i = 0; i < danglings[type].length; i++)//sub
-    //     {
-
-    //         GR[type][danglings[type][i]] = 0.0;
-    //     }
     //sum up to 1
     for(var type = 0; type < 2; type++)
     {
@@ -253,8 +228,155 @@ function GetGameRanks(nodes, orilinks, beta)
     }
     return GR;
     
+}
+
+
+function GetPageRanks(nodes, orilinks, beta)
+{
+    console.log(nodes);
+    var n = nodes.length;
+    // B, P
+    var GR = [];
+    var links = {};  //links[f][t] = w
+        // links[0]: att edges
+        // links[1]: def edges
+    edgeMap = links;
+
+    var nodenum = 0;
+    var danglings = [];//sub of dang. node
+    var totw = {};  // total weighted indegree. totw[type][t] = w;
+    
+
+    //init links & danglings
+    for(var i = 0; i < orilinks.length; i++)
+    {
+        // source is OBJECT modified by d3!!
+        var f = orilinks[i].source.index;
+        var t = orilinks[i].target.index;
+        var w = orilinks[i].value;
+        // var type = (orilinks[i].type == "att") ? 0 : 1;
+        // insert a link
+        if(!links[f])
+            links[f] = {};
+        if(!links[f][t])
+            links[f][t] = 0;
+        links[f][t] += w;
+        if(!totw[t])
+            totw[t] = 0;
+        totw[t] += w;
+    }
+
+    //guarantee: "links" same!
+
+    //find danglings and totw
+    for(var i = 0; i < n; i++) {
+        if(!links[i]) // no link
+        {
+            danglings.push(i);
+        }
+        else
+        {
+            nodenum++;
+        }
+    
+    }
+    // console.log(nodenum);
+
+    for(var i = 0; i < n; i++) 
+        for(var type = 0; type < 1; type++)
+            GR[i] = 1.0 / n;
+
+    //sum up to 1
+    for(var type = 0; type < 1; type++)
+    {
+        var sum = 0.0;
+        for(var i = 0; i < n; i++) 
+            sum += GR[i];
+        // console.log(sum);
+    }
+    // console.log(GR);
+
+    //ITERATIONS
+    var NewGR = [[],[]];
+    for(var iternum = 0; iternum < 20; iternum++)
+    {
+        var maxdiff = 0.0;   //maxdiff
+
+        for(var type = 0; type < 1; type++)
+        {
+            //danglings
+            //TODO: try only last time!
+            var danGR = 0.0; //total dan GR
+            for(var i = 0; i < danglings.length; i++)
+            {
+                var d = danglings[i];
+                danGR += GR[d];
+                // to all nodes!
+            }
+            console.log(danGR);
+
+            for(var i = 0; i < n; i++) 
+            {
+                //TODO!!!!!!
+                // NewGR[i] = danGR / n +
+                //  beta* (1-danGR) / n; 
+                NewGR[i] = 
+                 beta / n; //
+                 //dangling nodes!
+                var tmpGR = 0.0;
+                for(var j in links[i])
+                {
+                    var w = links[i][j];
+                    if(!totw[j] || w > totw[j] || totw[j] == 0)
+                    {
+                        console.log("Err! "+w+" "+totw[type[j]]);
+                        continue;
+                    }
+                    //according to weight
+                    tmpGR += GR[j] * w / totw[j];
+                    // console.log(NewGR[i]);
+                }
+                NewGR[i] += (1-beta) * tmpGR;
+            }
+
+        }
+
+        for(var type = 0; type < 1; type++)
+            //calc diff
+            for(var i = 0; i < n; i++)
+            {
+                var diff = NewGR[i] - GR[i];
+                if(diff < 0) diff = -diff;
+                if(maxdiff < diff)
+                    maxdiff = diff;
+
+                //rolling
+                GR[i] = NewGR[i];
+                NewGR[i] = 0.0;
+            }
+
+
+        console.log("Iter "+iternum+", Diff: "+maxdiff[0]+", "+maxdiff[1]);
+        console.log(GR);
+
+
+        for(var t = 0; t < 1; t++)
+        {var sum = 0;
+        for(var i = 0; i < GR[t].length; i++)
+            sum += GR[i];
+        console.log("GRSUM: "+sum);
+        }
+        if(maxdiff[0] < 0.001 / n && maxdiff[1] < 0.001 / n)
+            break;
+
+
+
+    }
+    return GR;
     
 }
+
+
 
 function Div(exp1, exp2)
 {

@@ -9,6 +9,7 @@
 
     <!-- Le styles -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <script type="text/javascript" src="../assets/js/jquery.js"></script>
     <style>
       body {
         padding-top: 60px; 
@@ -17,6 +18,7 @@
       }
     </style>
     <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -31,8 +33,10 @@
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
 
     <!-- Begin -->
+
     <script type="text/javascript" src="../d3.v2.min.js"></script>
     <script type="text/javascript" src="jsonutil.js"></script>
+    <script type="text/javascript" src="interaction.js"></script>
     
     <link type="text/css" rel="stylesheet" href="myforce.css"/>
   </head>
@@ -85,13 +89,13 @@
               </select>
           </p>
         </div>
-        <div class="span4">
+        <!-- <div class="span4">
           <p>Team: <select id="selteam"></select></p>
-        </div>
+        </div> -->
         <div class="span4">
           <p>Rank by: 
               <select id="selrank">
-                <option value="GameRank" default="1">PageRank</option>
+                <option value="PageRank" default="1">PageRank</option>
                 <option value="InDegree">InDegree</option>
               </select>
           </p>
@@ -102,6 +106,7 @@
           <!-- Body conte nt -->
             <div id="chart"></div>
             <script type="text/javascript" src="team.js"></script>
+            <script type="text/javascript" src="interaction.js"></script>
 
         </div>
       
@@ -141,12 +146,13 @@
       </footer>
     </div> 
 
-    <script type="text/javascript" src="gameselect.js"></script>
+    <script type="text/javascript" src="gameselect-team.js"></script>
+
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.js"></script>
+    
     <script src="../assets/js/bootstrap-transition.js"></script>
     <script src="../assets/js/bootstrap-alert.js"></script>
     <script src="../assets/js/bootstrap-modal.js"></script>

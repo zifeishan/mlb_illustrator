@@ -1,0 +1,29 @@
+TODO
+====
+
+Issues
+----
+* team.html 有问题：换回PageRank时所有点为0
+* 检查全部人GR计算的值是否有误
+
+
+Tasks
+----
+- Technical Report
+
+X Team GR
+
+- Support both PR and GR in player ranking
+
+- Interactions
+    - name cards
+    - click -> hide other edges/nodes
+    - bar statistics
+    - Search nodes
+
+- Game Replay
+
+- Other Statistics
+    - Map
+    - Bar
+

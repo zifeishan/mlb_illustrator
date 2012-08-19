@@ -1,0 +1,9789 @@
+{
+  "nodes": [
+    {
+      "id": "NYA",
+      "league": "AL"
+    },
+    {
+      "id": "WS",
+      "league": "AL"
+    },
+    {
+      "id": "LAN",
+      "league": "NL"
+    },
+    {
+      "id": "CIN",
+      "league": "NL"
+    },
+    {
+      "id": "MIN",
+      "league": "AL"
+    },
+    {
+      "id": "BAL",
+      "league": "AL"
+    },
+    {
+      "id": "DET",
+      "league": "AL"
+    },
+    {
+      "id": "CAL",
+      "league": "AL"
+    },
+    {
+      "id": "CLE",
+      "league": "AL"
+    },
+    {
+      "id": "KC",
+      "league": "AL"
+    },
+    {
+      "id": "PHI",
+      "league": "NL"
+    },
+    {
+      "id": "CHN",
+      "league": "NL"
+    },
+    {
+      "id": "ATL",
+      "league": "NL"
+    },
+    {
+      "id": "HOU",
+      "league": "NL"
+    },
+    {
+      "id": "PIT",
+      "league": "NL"
+    },
+    {
+      "id": "NYN",
+      "league": "NL"
+    },
+    {
+      "id": "SFN",
+      "league": "NL"
+    },
+    {
+      "id": "SLN",
+      "league": "NL"
+    },
+    {
+      "id": "CHA",
+      "league": "AL"
+    },
+    {
+      "id": "BOS",
+      "league": "AL"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "value": 1,
+      "target": 1,
+      "label": "Score 8:0"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 2,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 4,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 10,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 12,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 16,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 18,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 7,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 0,
+      "label": "Score 10:4"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 4,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 19,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 12,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 10:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 9,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 16,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 3,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 14,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 2,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 7,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 18,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 5,
+      "label": "Score 11:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 4,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 19,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 16,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 14,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 2,
+      "label": "Score 13:4"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 7,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 1,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 9,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 6,
+      "label": "Score 11:7"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 4,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 19,
+      "label": "Score 7:6"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 16,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 16,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 11,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 13,
+      "label": "Score 11:8"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 14,
+      "label": "Score 9:6"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 19,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 7,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 13,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 3,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 10,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 18,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 3,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 16,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 7,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 1,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 11,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 17,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 0,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 4,
+      "label": "Score 12:4"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 11,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 10,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 9,
+      "label": "Score 12:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 0,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 11:4"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 1,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 12,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 5,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 19,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 9:6"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 18,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 14,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 17,
+      "label": "Score 9:3"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 10:6"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 1,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 17,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 7,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 4,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 18,
+      "label": "Score 11:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 1,
+      "label": "Score 9:3"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 11,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 2,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 10,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 3,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 0,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 13,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 12,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 16,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 17,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 12,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 10,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 16,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 9,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 8,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 7,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 1,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 10,
+      "label": "Score 9:8"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 17,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 9,
+      "label": "Score 11:10"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 7,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 4,
+      "label": "Score 9:6"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:0"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 19,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 18,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 7,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 4,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 4,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 12,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 10,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 3,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 17,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 7,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 8,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 17,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 19,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 9,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 1,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 0,
+      "label": "Score 13:4"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 11,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 16,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 10,
+      "label": "Score 10:3"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 14,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 19,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 6,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 9,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 8:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 13,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 2,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 10,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 2,
+      "label": "Score 9:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 7,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 8,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 19,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 14:7"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 17,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 13,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 16,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 7,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 8,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 16,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 9,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 4,
+      "label": "Score 9:6"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 3,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 17,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 4,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 11,
+      "label": "Score 9:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 7,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 1,
+      "label": "Score 11:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 16,
+      "label": "Score 10:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 3,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 5,
+      "label": "Score 13:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 19,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 16,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 13,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 10,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 17,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 9,
+      "label": "Score 8:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 14,
+      "label": "Score 9:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 19,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 7,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 4,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 14:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 12:5"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 10,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 2,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 13,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 19,
+      "label": "Score 10:8"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 7,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 3,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 2,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 12,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 6,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 6,
+      "label": "Score 13:9"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 7,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 7,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 4,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 5,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 10,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 10,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 11,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 2,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 13,
+      "label": "Score 11:6"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 17,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 7,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 14,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 16,
+      "label": "Score 9:3"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 19,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 18,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 7,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 13,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 11,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 10,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 19,
+      "label": "Score 12:8"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 0,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 1,
+      "label": "Score 8:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 13,
+      "label": "Score 7:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 5,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 16,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 3,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 7,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 9,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 1,
+      "label": "Score 11:5"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 11,
+      "label": "Score 8:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 13,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 10,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 19,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 7,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 18,
+      "label": "Score 9:4"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 2,
+      "label": "Score 20:3"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 13,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 15,
+      "label": "Score 11:9"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 10,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 12,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 7,
+      "label": "Score 12:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 0,
+      "label": "Score 9:4"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 6,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 18,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 14,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 11,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 2,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 3,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 7:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 18,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 13,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 17,
+      "label": "Score 9:6"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 14,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 10,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 5,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 6,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 4,
+      "label": "Score 14:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 17,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 13,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 15,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 8,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 19,
+      "label": "Score 9:3"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 4,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 3,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 18,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 7,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 1,
+      "label": "Score 10:5"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 11,
+      "label": "Score 17:4"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 12,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 17,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 3,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 19,
+      "label": "Score 10:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 7,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 0,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 6,
+      "label": "Score 8:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 11,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 10,
+      "label": "Score 11:4"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 16,
+      "label": "Score 10:5"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 18,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 8,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 1,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 4,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 12,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 10,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 3,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 17,
+      "label": "Score 7:6"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 10,
+      "label": "Score 12:9"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 8,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 7,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 7,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 4,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 9,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 12,
+      "label": "Score 12:5"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 17,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 16,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 4,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 6,
+      "label": "Score 9:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 9,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 7,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 3,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 2,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 14,
+      "label": "Score 15:4"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 6,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 7,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 11,
+      "label": "Score 7:6"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 2,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 14,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 1,
+      "label": "Score 12:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 18,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 4,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 0,
+      "label": "Score 9:5"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 13,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 11,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 1,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 18,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 7,
+      "label": "Score 8:6"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 6,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 14,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 11:2"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 17,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 1,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 18,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 19,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 7,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 0,
+      "label": "Score 11:7"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 13,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 9,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 8,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 10,
+      "label": "Score 13:3"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 17,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 7,
+      "label": "Score 16:4"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 7,
+      "label": "Score 11:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 19,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 9,
+      "label": "Score 11:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 9,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 4,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 8,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 1,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 16,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 11,
+      "label": "Score 8:6"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 11,
+      "label": "Score 9:8"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 14,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 17,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 5,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 1,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 0,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 2,
+      "label": "Score 13:5"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 17,
+      "label": "Score 17:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 5,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 19,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 18,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 4,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 1,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 3,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 13,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 1,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 8,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 4,
+      "label": "Score 11:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 18,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 16,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 10:7"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 10,
+      "label": "Score 16:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 19,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 6,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 8,
+      "label": "Score 10:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 5,
+      "label": "Score 8:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 0,
+      "label": "Score 9:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 12,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 9:4"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 10,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 19,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 6,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 9,
+      "label": "Score 12:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 9,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 5,
+      "label": "Score 10:7"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 0,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 16,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 18:10"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 3,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 14,
+      "label": "Score 14:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 2,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 2,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 7,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 9,
+      "label": "Score 10:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 6,
+      "label": "Score 11:5"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 18,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 16,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 12,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 17,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 19,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 5,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 4,
+      "label": "Score 15:10"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 1,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 13,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 3,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 10,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 14,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 19,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 18,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 5,
+      "label": "Score 9:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 6,
+      "label": "Score 7:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 1,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 16,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 10,
+      "label": "Score 16:7"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 14,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 18,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 5,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 6,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 1,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 16,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 14,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 10,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 5,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 4,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 19,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 13,
+      "label": "Score 9:8"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 14,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 16,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 7,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 0,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 4,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 9,
+      "label": "Score 7:6"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 6,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 13,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 3,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 10,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 17,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 0,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 6,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 19,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 12,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 3,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 10,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 16,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 4,
+      "label": "Score 9:5"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 6,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 7,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 13,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 3,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 7,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 0,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 13,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 14,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 3,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 1,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 0,
+      "label": "Score 8:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 2,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 10,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 16,
+      "label": "Score 9:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 7:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 2,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 16,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 18,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 6,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 15,
+      "label": "Score 12:4"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 13,
+      "label": "Score 9:8"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 5,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 19,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 7,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 12,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 13,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 10,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 18,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 6,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 1,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 13,
+      "label": "Score 8:0"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 3,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 17,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 17,
+      "label": "Score 10:4"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 19,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 10,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 3,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 16,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 7,
+      "label": "Score 9:4"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 6,
+      "label": "Score 8:1"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 0,
+      "label": "Score 10:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 4,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 13,
+      "label": "Score 13:5"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 3,
+      "label": "Score 9:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 14,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 17,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 8,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 0,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 19,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 14,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 3,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 17,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 14,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 2,
+      "label": "Score 14:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 17,
+      "label": "Score 12:4"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 5,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 8,
+      "label": "Score 8:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 0,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 3,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 13,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 16,
+      "label": "Score 10:3"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 10,
+      "label": "Score 12:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 5,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 7,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 6,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 9,
+      "label": "Score 10:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 3,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 17,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 14,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 8,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 0,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 18,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 1,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 17,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 16,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 7,
+      "label": "Score 9:3"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 18,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 8,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 12,
+      "label": "Score 12:6"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 16,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 0,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 0,
+      "label": "Score 7:6"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 11,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 16,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 13,
+      "label": "Score 9:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 2,
+      "label": "Score 9:7"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 17,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 8,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 0,
+      "label": "Score 10:4"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 13,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 14,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 17,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 18,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 4,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 19,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 11,
+      "label": "Score 11:5"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 10,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 12:5"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 4,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 19,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 11,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 10,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 3,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 18,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 18,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 8,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 19,
+      "label": "Score 10:4"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 6,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 11,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 17,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 3,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 18,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 14,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 19,
+      "label": "Score 10:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 7,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 9,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 6,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 6,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 3,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 2,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 13,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 17,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 5,
+      "label": "Score 11:5"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 18,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 7,
+      "label": "Score 8:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 4,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 8,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 8,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 6,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 10,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 15,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 16,
+      "label": "Score 8:6"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 14,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 9,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 6,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 10,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 13,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 17,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 6,
+      "label": "Score 9:5"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 18,
+      "label": "Score 7:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 7,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 7,
+      "label": "Score 7:6"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 14,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 3,
+      "label": "Score 8:0"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 2,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 16,
+      "label": "Score 9:0"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 16,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 17,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 17,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 6,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 4,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 10,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 16,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 5,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 18,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 12,
+      "label": "Score 9:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 17,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 10,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 16,
+      "label": "Score 8:6"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 5,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 18,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 0,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 4,
+      "label": "Score 9:6"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 12,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 13,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 13,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 1,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 11,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 2,
+      "label": "Score 10:4"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 4,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 16,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 3,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 13,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 17,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 5,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 4,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 0,
+      "label": "Score 11:4"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 18,
+      "label": "Score 9:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 16,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 3,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 17,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 13,
+      "label": "Score 15:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 4,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 0,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 9,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 9,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 1,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 16,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 10,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 14,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 12,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 13,
+      "label": "Score 15:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 10,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 14,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 17,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 19,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 8,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 1,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 3,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 13,
+      "label": "Score 12:7"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 7,
+      "label": "Score 9:6"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 4,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 9,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 16,
+      "label": "Score 11:5"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 7,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 4,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 9,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 14,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:6"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 16,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 19,
+      "label": "Score 9:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 18,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 5,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 7,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 12,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 3,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 14,
+      "label": "Score 9:3"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 15,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 10,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 4,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 19,
+      "label": "Score 10:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 8,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 0,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 7,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 12,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 15,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 10,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 19,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 18,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 5,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 9,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 7,
+      "label": "Score 11:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 1,
+      "label": "Score 10:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 12,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 3,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 11,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 15,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 10,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 16,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 4,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 0,
+      "label": "Score 8:6"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 11,
+      "label": "Score 9:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 3,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 14,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 9,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 8,
+      "label": "Score 11:5"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 7,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 17,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 13,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 2,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 6,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 19,
+      "label": "Score 8:6"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 18,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 0,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 11,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 15,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 14,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 11,
+      "label": "Score 10:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 6,
+      "label": "Score 11:5"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 0,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 19,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 11,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 13,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 7,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 19,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 11,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 13,
+      "label": "Score 10:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 2,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 18,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 7,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 8,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 6,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 9,
+      "label": "Score 9:6"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 19,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 11,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 9:7"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 13,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 14,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 0,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 11,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 16,
+      "label": "Score 8:0"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 17,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 7,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 18,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 6,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 19,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 9,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 1,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 14,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 16,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 17,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 0,
+      "label": "Score 7:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 4,
+      "label": "Score 9:7"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 11,
+      "label": "Score 10:6"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 5,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 6,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 13,
+      "label": "Score 10:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 17,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 19,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 8,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 1,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 18,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 13,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 11,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 3,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 19,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 0,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 9,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 18,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 13,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 13,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 11,
+      "label": "Score 9:0"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 16,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 19,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 8,
+      "label": "Score 15:11"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 18,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 13,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 10,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 10,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 14,
+      "label": "Score 11:9"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 7,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 12,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 10,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 11,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 7,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 11:10"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 2,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 14,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 11,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 6,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 7,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 9,
+      "label": "Score 14:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 16,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 13,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 10,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 14,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 19,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 7,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 18,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 4,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 9,
+      "label": "Score 7:6"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 13,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 3,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 7,
+      "label": "Score 12:11"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 0,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 13,
+      "label": "Score 7:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 12,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 10,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 16,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 7,
+      "label": "Score 12:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 7,
+      "label": "Score 9:8"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 5,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 4,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 17,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 12,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 10,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 3,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 1,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 17,
+      "label": "Score 11:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 12,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 5,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 1,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 18,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 7,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 4,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 4,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 11:4"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 14,
+      "label": "Score 8:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 16,
+      "label": "Score 9:0"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 9,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 19,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 0,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 16:5"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 4,
+      "label": "Score 10:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 13,
+      "label": "Score 9:3"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 3,
+      "label": "Score 8:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 11,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 17,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 1,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 18,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 7,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 18,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 19,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 8,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 9,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 1,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 1,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 17,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 14,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 16,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 18,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 3,
+      "label": "Score 8:6"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 17,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 14,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 19,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 6,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 1,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 13,
+      "label": "Score 11:8"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 2,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 14,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 12,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 16,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 7,
+      "label": "Score 10:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 9,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 18,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 13,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 3,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 7:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 17,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 7,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 7,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 9,
+      "label": "Score 9:8"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 4,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 0,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 18,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 14,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 10,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 11:1"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 17,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 6,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 4,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 0,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 12,
+      "label": "Score 11:9"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 10,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 16,
+      "label": "Score 9:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 15,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 5,
+      "label": "Score 10:9"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 0,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 16,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 10,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 13,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 18,
+      "label": "Score 10:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 1,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 12,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 11,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 3,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 13,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 5,
+      "label": "Score 8:6"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 1,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 2,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 10,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 13,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 9,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 0,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 2,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 14,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 13,
+      "label": "Score 13:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 7,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 5,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 9,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 4,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 18,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 19,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 1,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 10,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 10,
+      "label": "Score 8:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 2,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 11,
+      "label": "Score 8:6"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 15,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 17,
+      "label": "Score 10:8"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 17,
+      "label": "Score 9:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 5,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 5,
+      "label": "Score 11:4"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 8,
+      "label": "Score 9:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 0,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 1,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 7,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 9,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 9,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 4,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 11,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 3,
+      "label": "Score 9:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 14,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 13,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 15,
+      "label": "Score 9:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 13,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 5,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 19,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 9,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 3,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 17,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 11,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 5,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 0,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 18,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 7,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 15,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 16,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 0,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 6,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 9,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 8,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 7,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 2,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 15,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 12,
+      "label": "Score 10:5"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 17,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 11,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 18,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 1,
+      "label": "Score 13:5"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 14,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 11,
+      "label": "Score 11:10"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 10,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 9,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 18,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 0,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 7,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 14,
+      "label": "Score 15:7"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 10,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 8,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 5,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 7,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 1,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 12,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 3,
+      "label": "Score 11:3"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 16,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 17,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 15,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 19,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 4,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 8,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 12,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 10,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 10,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 14,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 19,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 1,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 0,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 15,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 2,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 16,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 19,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 4,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 0,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 3,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 2,
+      "label": "Score 6:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 16,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 18,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 6,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 14,
+      "label": "Score 14:4"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 2,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 10,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 0,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 7,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 1,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 6,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 9,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 11,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 13,
+      "label": "Score 11:7"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 2,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 10,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 7,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 0,
+      "label": "Score 10:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 9,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 1,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 9:4"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 11,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 14,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 17,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 8,
+      "label": "Score 6:5"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 17,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 19,
+      "label": "Score 10:0"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 5,
+      "label": "Score 10:3"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 18,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 7,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 0,
+      "label": "Score 8:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 1,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 1,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 3,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 10,
+      "label": "Score 7:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 15,
+      "label": "Score 8:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 13,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 14,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 19,
+      "label": "Score 7:5"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 8,
+      "label": "Score 8:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 4,
+      "label": "Score 6:2"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 3,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 2,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 13,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 14,
+      "label": "Score 8:4"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 17,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 5,
+      "label": "Score 11:7"
+    },
+    {
+      "source": 18,
+      "value": 1,
+      "target": 8,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 9,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 0,
+      "label": "Score 9:4"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 6,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 11,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 2,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 15,
+      "label": "Score 4:2"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 1,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 4,
+      "label": "Score 9:2"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 6,
+      "label": "Score 2:0"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 10,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 2,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 5,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 19,
+      "label": "Score 6:3"
+    },
+    {
+      "source": 4,
+      "value": 1,
+      "target": 7,
+      "label": "Score 7:3"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 0,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 17,
+      "label": "Score 8:7"
+    },
+    {
+      "source": 12,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 14,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 8:3"
+    },
+    {
+      "source": 8,
+      "value": 1,
+      "target": 19,
+      "label": "Score 6:0"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 18,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 9,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 10,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 2,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 15,
+      "label": "Score 7:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 8:0"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 12,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 15,
+      "label": "Score 3:0"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 16,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 18,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 9,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 3,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:1"
+    },
+    {
+      "source": 10,
+      "value": 1,
+      "target": 16,
+      "label": "Score 9:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 13,
+      "label": "Score 4:1"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 4,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 8,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 7,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 6,
+      "label": "Score 8:6"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 9,
+      "label": "Score 5:4"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 12,
+      "label": "Score 3:1"
+    },
+    {
+      "source": 11,
+      "value": 1,
+      "target": 3,
+      "label": "Score 9:4"
+    },
+    {
+      "source": 15,
+      "value": 1,
+      "target": 2,
+      "label": "Score 5:0"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 10,
+      "label": "Score 3:2"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 10,
+      "label": "Score 1:0"
+    },
+    {
+      "source": 13,
+      "value": 1,
+      "target": 14,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 19,
+      "value": 1,
+      "target": 4,
+      "label": "Score 5:3"
+    },
+    {
+      "source": 1,
+      "value": 1,
+      "target": 18,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 5,
+      "value": 1,
+      "target": 8,
+      "label": "Score 4:0"
+    },
+    {
+      "source": 6,
+      "value": 1,
+      "target": 7,
+      "label": "Score 6:4"
+    },
+    {
+      "source": 7,
+      "value": 1,
+      "target": 6,
+      "label": "Score 8:5"
+    },
+    {
+      "source": 0,
+      "value": 1,
+      "target": 9,
+      "label": "Score 4:3"
+    },
+    {
+      "source": 17,
+      "value": 1,
+      "target": 12,
+      "label": "Score 5:2"
+    },
+    {
+      "source": 3,
+      "value": 1,
+      "target": 11,
+      "label": "Score 10:3"
+    },
+    {
+      "source": 2,
+      "value": 1,
+      "target": 15,
+      "label": "Score 2:1"
+    },
+    {
+      "source": 14,
+      "value": 1,
+      "target": 13,
+      "label": "Score 10:3"
+    },
+    {
+      "source": 16,
+      "value": 1,
+      "target": 10,
+      "label": "Score 2:1"
+    }
+  ],
+  "info": {"year": "1967"}
+}

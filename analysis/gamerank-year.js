@@ -3,6 +3,7 @@ var width = 800,
 var color = d3.scale.category20();
 
 var nodes, links, Radius, InDegrees, GR;
+var node, link;
 var stopped = false;
 var force = d3.layout.force()
     .charge(-120)
@@ -10,7 +11,8 @@ var force = d3.layout.force()
     .size([width, height])
     ;
 
-var svg = d3.select("#chart").append("svg")
+var svg = d3.select("#chart").append("svg");
+
 width = chart.offsetWidth;
 height = chart.offsetHeight;
 svg.attr("width", width);
@@ -31,7 +33,7 @@ function LayoutJson(json) {
     return;
 
   }
-
+  stopped = false;
   var gameindex = d3.select("#gameindex");
   var match = [json];
   for(var i = 0; i < match.length; i++) {
@@ -60,14 +62,15 @@ function LayoutJson(json) {
   var density = numEdges / (numNodes * numNodes + 1);
   force.linkDistance(3000 / Math.sqrt(1+numNodes) * density)
     .friction(0.7)
-    .gravity(0.15 * Math.sqrt(1+numNodes))
-    .charge(-70000 * density)
+    .gravity(0.05 * Math.sqrt(1+numNodes))
+    .charge(-90000 * density)
     ;
 
   force
       .nodes(thisMatch.nodes)
       .links(thisMatch.links)
       .start();
+
 
   var link = svg.selectAll("line.link")
       .data(thisMatch.links)
@@ -80,6 +83,7 @@ function LayoutJson(json) {
         return Math.sqrt(d.value); 
 
       })
+
       .style("stroke", function(d) { 
         if(d.type=="def") return "rgb(100, 220,255)";
         else return "rgb(255,220,100)";
@@ -101,8 +105,8 @@ function LayoutJson(json) {
       })
       .call(force.drag);
 
-  node.append("title")
-      .text(function(d) { return d.name; });
+  // node.append("title")
+      // .text(function(d) { return d.name; });
 
 // node.transition()
 //       .ease("bounce")
@@ -112,23 +116,26 @@ function LayoutJson(json) {
 
   //event handlers
   node.on("click", function(d){
-    d.fixed = 1 - d.fixed;
+    ClickNode(svg, d);
+    
   });
-  node.on("mouseover", function(){
-    // console.log("mouseover: "+this.getAttribute("style.color"));
-    // var y = this.getAttribute("r");
-    // y+=5;
-    // console.log(y);
-    // this.setAttribute("r", y);
-    // this.setAttribute("style.color", "#green");
+  node.on("mouseover", function(d){
+    CreateCard(svg, d);
+
   });
-  node.on("mouseout", function(){
-    //this.
-    // var y = this.getAttribute("r");
-    // y-=5;
-    // // console.log(d);
-    // this.setAttribute("r", y);
+  node.on("mouseout", function(d){
+    DeleteCards(svg, d);
   });  
+  link.on("mouseover", function(d){
+    // console.log(d);
+    ShowLinkLabel(svg, d);
+
+  });
+  link.on("mouseout", function(d){
+    HideLinkLabel(svg, d);
+  });  
+
+
   //TODO mite be reversed
   var running = true;
   document.onkeyup = function(d){
@@ -144,14 +151,9 @@ function LayoutJson(json) {
       stopped = false;
 
     if(d.keyCode == 13) // ENTER
-      if(running) {
         force.stop();
         stopped = true;
-        running = false;
-      } else {
-        // force.start();
-        running = true;
-      }
+      
     //  if(d.keyCode == 188)  // ,
     //   force.linkDistance(force.linkDistance()-5 > 5? force.linkDistance()-5 : 5)
     //   ;
@@ -216,18 +218,10 @@ function LayoutJson(json) {
   Radius = [];
   InDegrees = GetInDegrees(nodes, links);
   GR = GetGameRanks(nodes, links, 0.15);
-
-  // //collect max GR
-  // var max = [0, 0];
-  // for(var i = 0; i < nodes.length; i++) 
-  //   for(var t = 0; t < 2; t++)
-  //     if(max[t] < GR[t][i]) 
-  //       max[t] = GR[t][i];
-
-  // console.log("MAX: ", max[0], max[1]);
   
   Normalize(GR[0], 0, 30);
   Normalize(GR[1], 0, 30);
+
   //Set GR as Radius
   for(var i = 0; i < nodes.length; i++) 
     if(nodes[i].FP == "1")//pitcher
