@@ -207,7 +207,7 @@ stopped = false;
   
   Radius = [];
   InDegrees = GetInDegrees(nodes, links);
-  GR = GetGameRanks(nodes, links, 0.15);
+  GR = GetGameRanks(nodes, links, 0.15, 20);
   
   Normalize(GR[0], 0, 30);
   Normalize(GR[1], 0, 30);

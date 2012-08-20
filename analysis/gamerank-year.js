@@ -27,7 +27,7 @@ svg.remove();
 // d3.json("../data/games-year/2010.json", LayoutJson);
 
 function LayoutJson(json) {
-
+  globalCoreCounter = 0;
   if(json == undefined) {
     svg.remove();
     return;
@@ -62,8 +62,8 @@ function LayoutJson(json) {
   var density = numEdges / (numNodes * numNodes + 1);
   force.linkDistance(3000 / Math.sqrt(1+numNodes) * density)
     .friction(0.7)
-    .gravity(0.05 * Math.sqrt(1+numNodes))
-    .charge(-90000 * density)
+    .gravity(0.15 * Math.sqrt(1+numNodes))
+    .charge(-30000 * density)
     ;
 
   force
@@ -217,7 +217,7 @@ function LayoutJson(json) {
   
   Radius = [];
   InDegrees = GetInDegrees(nodes, links);
-  GR = GetGameRanks(nodes, links, 0.15);
+  GR = GetGameRanks(nodes, links, 0.15, 20);
   
   Normalize(GR[0], 0, 30);
   Normalize(GR[1], 0, 30);

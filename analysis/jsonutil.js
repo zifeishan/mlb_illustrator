@@ -84,7 +84,7 @@ function GetInDegrees(nodes, links)
     return indegree;
 }
 
-function GetGameRanks(nodes, orilinks, beta)
+function GetGameRanks(nodes, orilinks, beta, iterNum)
 {
     console.log(nodes);
     var n = nodes.length;
@@ -152,7 +152,7 @@ function GetGameRanks(nodes, orilinks, beta)
 
     //ITERATIONS
     var NewGR = [[],[]];
-    for(var iternum = 0; iternum < 20; iternum++)
+    for(var iternum = 0; iternum < iterNum; iternum++)
     {
         var maxdiff = [0.0, 0.0];   //maxdiff
 

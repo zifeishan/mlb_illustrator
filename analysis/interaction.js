@@ -238,83 +238,107 @@ function ClickNode(svg, d)
     if(myMap == undefined || myMap.length == 0)
         return;
     
+    if(globalCoreCounter > 0)
+    {
+        var wascore = d.core;
+        CancleSelectNode(svg);
+        if(wascore)
+           return; 
+    }
+
     // !core + !fixed: new core
     // core + !fixed: impossible
     // !core + fixed: associated
     // core + fixed: already core
-    if(!d.fixed && !d.core && globalCoreCounter == 0) //
-    {
-        d.core = true;
-        d.fixed = 1;
-        globalCoreCounter++;
-        console.log("++:"+globalCoreCounter);
-        // CreateSmallCard(svg, d);
-    
-        for(var type = 0; type < myMap.length; type++)
-            for(var subt in myMap[type][d.index])
-            {
-                var dt = nodes[subt];
-                if(!dt.fixed)
-                {
-                    dt.fixed = 1;
-                    // CreateSmallCard(svg, dt);
-                }
-            }
+    // if(!d.fixed && !d.core && globalCoreCounter == 0) //
+    // {
+    d.core = true;
+    d.fixed = 1;
+    globalCoreCounter++;
+    console.log("++:"+globalCoreCounter);
+    // CreateSmallCard(svg, d);
 
-        for(var i = 0; i < nodes.length; i++)
-            if(!nodes[i].fixed)
-                nodes[i].opacity = 0.1;
-            else
-                nodes[i].opacity = 1;
-
-        svg.selectAll("circle.node").style("fill-opacity", function(d){
-          if(!d.opacity)
-            return 1;
-          return d.opacity;
-        });
-        svg.selectAll("line.link").style("opacity", function(d){
-            var s = d.source;
-            var t = d.target;
-            if((!s.opacity || s.opacity == 1)
-                &&  (!t.opacity || t.opacity == 1))
-                return 1;
-            else
-                return 0.1;
-        });
-
-
-    }
-    else if(d.fixed && d.core)
-    {
-        globalCoreCounter--;
-        console.log("--:"+globalCoreCounter);
-        d.core = false;
-        d.fixed = 0;
-        // DeleteSmallCards(svg, d);
-    
-        for(var type = 0; type < 2; type++)
-            for(var subt in myMap[type][d.index])
-            {
-                var dt = nodes[subt];
-                if(dt.fixed && !dt.core)
-                {
-                    dt.fixed = 0;
-                    // DeleteSmallCards(svg, dt);
-                }
-            }
-
-        if(globalCoreCounter == 0)
+    for(var type = 0; type < myMap.length; type++)
+        for(var subt in myMap[type][d.index])
         {
-            for(var i = 0; i < nodes.length; i++)
-                nodes[i].opacity = 1;
+            var dt = nodes[subt];
+            if(!dt.fixed)
+            {
+                dt.fixed = 1;
+                // CreateSmallCard(svg, dt);
+            }
+        }
 
-            svg.selectAll("circle.node").style("fill-opacity", 1);
-            svg.selectAll("line.link").style("opacity", 1);
-          }
-    }
+    for(var i = 0; i < nodes.length; i++)
+        if(!nodes[i].fixed)
+            nodes[i].opacity = 0.1;
+        else
+            nodes[i].opacity = 1;
+
+    svg.selectAll("circle.node").style("fill-opacity", function(d){
+      if(!d.opacity)
+        return 1;
+      return d.opacity;
+    });
+    svg.selectAll("line.link").style("opacity", function(d){
+        var s = d.source;
+        var t = d.target;
+        if((!s.opacity || s.opacity == 1)
+            &&  (!t.opacity || t.opacity == 1))
+            return 1;
+        else
+            return 0.1;
+    });
+
+
+    // }
+    // else if(d.fixed && d.core)
+    // {
+    //     CancleSelectNode(svg);
+    // }
     
 }
 
+function CancleSelectNode(svg)
+{
+    globalCoreCounter--;
+    console.log("--:"+globalCoreCounter);
+
+    for(var i = 0; i < nodes.length; i++)
+    {
+            nodes[i].opacity = 1;
+            nodes[i].core = false;
+            nodes[i].fixed = 0;
+    }
+
+    svg.selectAll("circle.node").style("fill-opacity", 1);
+    svg.selectAll("line.link").style("opacity", 1);
+
+
+    // d.core = false;
+    // d.fixed = 0;
+    // // DeleteSmallCards(svg, d);
+
+    // for(var type = 0; type < 2; type++)
+    //     for(var subt in myMap[type][d.index])
+    //     {
+    //         var dt = nodes[subt];
+    //         if(dt.fixed && !dt.core)
+    //         {
+    //             dt.fixed = 0;
+    //             // DeleteSmallCards(svg, dt);
+    //         }
+    //     }
+
+    // if(globalCoreCounter == 0)
+    // {
+    //     for(var i = 0; i < nodes.length; i++)
+    //         nodes[i].opacity = 1;
+
+    //     svg.selectAll("circle.node").style("fill-opacity", 1);
+    //     svg.selectAll("line.link").style("opacity", 1);
+    //   }
+}
 function Search(form)
 {
     var text = form.searchname.value;
