@@ -47,7 +47,7 @@ function CreateCard(svg, d)
         .style("fill","#ccffcc")
         .style("stroke","silver")
         .style("stroke-width",3)
-        .style("fill-opacity",0.3)
+        .style("fill-opacity",0.5)
         .style("stroke-opacity",0.7)
         ;
 
@@ -61,6 +61,11 @@ function CreateCard(svg, d)
     var nowy = y + border - linespace;
     var nowx = x + border;
 
+    if(!d.name) // is a TEAM
+    {
+        d.group = d.league;
+        d.name = teamcodes[d.id].name;
+    }
     var text = svg.append("text")
         .attr("class", "idcard")
         .attr("id", d.id)
@@ -80,6 +85,14 @@ function CreateCard(svg, d)
             .attr("y", (nowy = nowy + linespace))
             .text("League: " + teamcodes[d.group].league);
     }
+    else if(d.league)
+    {
+        text.append("tspan")
+            .attr("x", nowx)
+            .attr("y", (nowy = nowy + linespace))
+            .text("League: " + d.league);
+    }
+
     var rad = Math.round(Radius[d.index]*100)/100;
     text.append("tspan")
         .attr("x", nowx)
@@ -218,7 +231,10 @@ var globalCoreCounter = 0;
 // show all edges and neighbors of him
 function ClickNode(svg, d)
 {
-    if(linkMap == undefined || linkMap.length == 0)
+    myMap = linkMap;
+    if(myMap == undefined || myMap.length == 0)
+        myMap = [edgeMap];
+    if(myMap == undefined || myMap.length == 0)
         return;
     
     // !core + !fixed: new core
@@ -233,8 +249,8 @@ function ClickNode(svg, d)
         console.log("++:"+globalCoreCounter);
         // CreateSmallCard(svg, d);
     
-        for(var type = 0; type < 2; type++)
-            for(var subt in linkMap[type][d.index])
+        for(var type = 0; type < myMap.length; type++)
+            for(var subt in myMap[type][d.index])
             {
                 var dt = nodes[subt];
                 if(!dt.fixed)
@@ -276,7 +292,7 @@ function ClickNode(svg, d)
         // DeleteSmallCards(svg, d);
     
         for(var type = 0; type < 2; type++)
-            for(var subt in linkMap[type][d.index])
+            for(var subt in myMap[type][d.index])
             {
                 var dt = nodes[subt];
                 if(dt.fixed && !dt.core)

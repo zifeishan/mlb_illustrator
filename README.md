@@ -4,8 +4,11 @@ TODO
 Issues
 ----
 X team.html 有问题：换回PageRank时所有点为0
-* 检查全部人GR计算的值是否有误
 
+* 检查全部人GR计算的值是否有误!!
+
+* Team的交互有问题！
+* 
 
 High Prio Tasks
 ----
@@ -21,7 +24,7 @@ X Team GR
 
 - Game Replay
 
-
+- Team member photos
 
 
 Medium Prio
