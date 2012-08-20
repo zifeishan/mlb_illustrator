@@ -24,15 +24,17 @@ svg.remove();
 //debug
 // d3.json("../data/games/2010seve/2010ANA.json", LayoutJson);
 // d3.json("myjson.json", LayoutJson);
-// d3.json("../data/games-year/2010.json", LayoutJson);
+// d3.json("../data/2000.json", LayoutJson);
 
 function LayoutJson(json) {
+  RemoveStat();
   globalCoreCounter = 0;
   if(json == undefined) {
     svg.remove();
     return;
-
   }
+
+
   stopped = false;
   var gameindex = d3.select("#gameindex");
   var match = [json];
@@ -54,16 +56,67 @@ function LayoutJson(json) {
   console.log(alllinks);
 
 
+  //Calc Radius (using Indegree)
+  
+
   // var thisMatch = json.match[0];
   var thisMatch = SelMatches;
 
   var numNodes = thisMatch.nodes.length;
   var numEdges = thisMatch.links.length;
+  
+
+//too dense. Del some links.
+
+  nodes = thisMatch.nodes;
+  links = thisMatch.links;
+  
+  // links: binding!!!!!!! TODO
+  Radius = [];
+  var xlinks = [];
+  var nodemap = {};
+
+  for(var i = 0; i < numEdges; i++)
+  {
+    xlinks[i] = {};
+    xlinks[i].value = links[i].value;
+    xlinks[i].type = links[i].type;
+    xlinks[i].source = nodes[links[i].source];
+    xlinks[i].target = nodes[links[i].target];
+  }
+  InDegrees = GetInDegrees(nodes, xlinks);
+  GR = GetGameRanks(nodes, xlinks, 0.15, 20);
+  delete xlinks;
+
+  Normalize(GR[0], 0, 30);
+  Normalize(GR[1], 0, 30);
+
+  var old_new = {};
+  var newlinks = [];
+  for(var i = 0; i < numEdges; i++)
+  {
+    var l = links[i];
+    if(l.value >= 6) {
+      //delete links[i];
+      old_new[i] = links.length;
+      newlinks.push(links[i]);
+    }
+  }
+  delete links;
+  numEdges = newlinks.length;
+  links = newlinks;
+  thisMatch.links = links;
+
+
+  // numNodes = thisMatch.nodes.length;
+  numEdges = thisMatch.links.length;
+
   var density = numEdges / (numNodes * numNodes + 1);
+
   force.linkDistance(3000 / Math.sqrt(1+numNodes) * density)
     .friction(0.7)
-    .gravity(0.15 * Math.sqrt(1+numNodes))
-    .charge(-30000 * density)
+    .gravity(0.05 * Math.sqrt(1+numNodes))
+    .charge(-90000 * density)
     ;
 
   force
@@ -210,17 +263,6 @@ function LayoutJson(json) {
 
   });
 
-  //Calc Radius (using Indegree)
-  
-  nodes = thisMatch.nodes;
-  links = thisMatch.links;
-  
-  Radius = [];
-  InDegrees = GetInDegrees(nodes, links);
-  GR = GetGameRanks(nodes, links, 0.15, 20);
-  
-  Normalize(GR[0], 0, 30);
-  Normalize(GR[1], 0, 30);
 
   //Set GR as Radius
   for(var i = 0; i < nodes.length; i++) 
@@ -233,13 +275,24 @@ function LayoutJson(json) {
 
   for(var i = 0; i < nodes.length; i++) {
     d3.select(node[0][i])
-      .attr("r", Radius[i]);
+      .attr("r", Radius[i] / 2);
     node.selectAll("title")
       .text(function(d) { return d.name + Radius[d.index]; 
       });
   }
 
+
+
+ShowStatistics(GR[0], "Top Batters");
+ShowStatistics(GR[1], "Top Pitchers");
+
+
+
+//================
+
+
+
+
 }
 
 
-//TODO STOPPED??

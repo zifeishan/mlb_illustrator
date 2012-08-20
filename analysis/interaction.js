@@ -354,7 +354,9 @@ function Search(form)
             // console.log(nodes[i].name
             //  .toLowerCase()
             //  .indexOf(text.toLowerCase()));
+            ClickNode(svg, nodes[i]);
             CreateSmallCard(svg, nodes[i]);
+
         }
     }
 }

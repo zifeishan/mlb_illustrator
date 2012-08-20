@@ -25,7 +25,7 @@ svg.remove();
 // d3.json("myjson.json", LayoutJson);
 
 function LayoutJson(json) {
-
+  RemoveStat();
   if(json == undefined) {
     svg.remove();
     return;
@@ -228,5 +228,8 @@ stopped = false;
     //   .text(function(d) { return d.name + Radius[d.index]; 
     //   });
   }
+
+ShowStatistics(GR[0], "Top Batters");
+ShowStatistics(GR[1], "Top Pitchers");
 
 }

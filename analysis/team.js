@@ -26,7 +26,7 @@ svg.remove();
 // d3.json("myjson.json", LayoutJson);
 
 function LayoutJson(json) {
-
+  RemoveStat();
   if(json == undefined) {
     console.log(json);
     svg.remove();
@@ -284,6 +284,8 @@ stopped = false;
   // node.selectAll("title")
   //     .text(function(d) { return d.name + "0w0"+Radius[d.index]; 
   //     });
+
+ShowStatistics(PR, "Top Teams");
 
 }
 

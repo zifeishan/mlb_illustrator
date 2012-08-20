@@ -411,3 +411,109 @@ function Normalize(array, minR, maxR)
     
 }
 
+
+function ShowStatistics(array, title)
+{
+    var margin = {top: 30, right: 10, bottom: 10, left: 30},
+    width = 800 - margin.right - margin.left,
+    height = 500 - margin.top - margin.bottom;
+
+var format = d3.format(",.0f");
+
+var x = d3.scale.linear()
+    .range([0, width]);
+
+var y = d3.scale.ordinal()
+    .rangeRoundBands([0, height], .1);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("top")
+    .tickSize(-height);
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .tickSize(0);
+
+d3.select("#statistics").append("h2")
+    .attr("class","stat")
+    .text(title);
+
+var svgd = d3.select("#statistics").append("svgd")
+    .attr("class", "stat")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  
+  data = [];
+  for(var i = 0; i < array.length; i++)
+  {
+    var value = array[i];
+    var name = nodes[i].name;
+    var team = nodes[i].group;
+    name += " @ "+team;
+    var me = {};
+    me["name"] = name;
+    me["value"] = value;
+    
+    // "name":name, "value":value,}
+    data.push(me);
+  }
+
+  data.sort(function(a,b){
+    return b.value - a.value;
+  });
+  
+  // Parse numbers, and sort by value.
+  data.forEach(function(d) { d.value = +d.value; });
+  data.sort(function(a, b) { return b.value - a.value; });
+  data = data.splice(0, 20);
+
+  console.log("+++++++++++++++++++");
+  console.log(data);
+  console.log("+++++++++++++++++++");
+  for(var i = 0; i < 20; i++)
+    console.log(data[i].name+"\t"+data[1].value);
+
+
+  // Set the scale domain.
+  x.domain([0, d3.max(data, function(d) { return d.value; })]);
+  y.domain(data.map(function(d) { return d.name; }));
+
+  var bar = svgd.selectAll("g.bar")
+      .data(data)
+    .enter().append("g")
+      .attr("class", "bar")
+      .attr("transform", function(d) { return "translate(0," + y(d.name) + ")"; });
+
+  bar.append("rect")
+      .attr("width", function(d) { return x(d.value); })
+      .attr("height", y.rangeBand());
+
+  bar.append("text")
+      .attr("class", "value")
+      .attr("x", function(d) { return x(d.value); })
+      .attr("y", y.rangeBand() / 2)
+      .attr("dx", -3)
+      .attr("dy", ".35em")
+      .attr("text-anchor", "end")
+      .text(function(d) { return format(d.value); });
+
+  svgd.append("g")
+      .attr("class", "x axis")
+      .call(xAxis);
+
+  svgd.append("g")
+      .attr("class", "y axis")
+      .call(yAxis);
+
+
+}
+
+function RemoveStat()
+{
+    d3.select(".stat").remove();
+}
