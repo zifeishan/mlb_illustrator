@@ -231,6 +231,7 @@ var globalCoreCounter = 0;
 // show all edges and neighbors of him
 function ClickNode(svg, d)
 {
+    CancleSearch();
     myMap = linkMap;
     if(myMap == undefined || myMap.length == 0)
         myMap = [edgeMap];
@@ -312,4 +313,42 @@ function ClickNode(svg, d)
           }
     }
     
+}
+
+function Search(form)
+{
+    var text = form.searchname.value;
+    console.log(text);
+    if(!nodes)
+        return;
+    for(var i = 0; i < nodes.length; i++)
+    {
+        //contains
+        if(nodes[i].name
+             .toLowerCase()
+             .indexOf(text.toLowerCase()) != -1) {
+            // console.log(nodes[i].name
+            //  .toLowerCase()
+            //  .indexOf(text.toLowerCase()));
+            CreateSmallCard(svg, nodes[i]);
+        }
+    }
+}
+function CancleSearch()
+{
+    svg.selectAll(".smallcard").remove();
+}
+function handleInput(d)
+{
+    console.log(d);
+}
+function checkEnter(e)
+ {
+     var key;      
+     if(window.event)
+          key = window.event.keyCode; //IE
+     else
+          key = e.which; //firefox      
+
+     return (key != 13);
 }

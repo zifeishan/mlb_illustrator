@@ -98,57 +98,20 @@
               </select>
           </p>
         </div>
-        <div class = "row">
-          <div class="span4">
+      </div>
 
-<!--
-            <script>
-  $(function() {
-    var availableTags = [
-      "ActionScript",
-      "AppleScript",
-      "Asp",
-      "BASIC",
-      "C",
-      "C++",
-      "Clojure",
-      "COBOL",
-      "ColdFusion",
-      "Erlang",
-      "Fortran",
-      "Groovy",
-      "Haskell",
-      "Java",
-      "JavaScript",
-      "Lisp",
-      "Perl",
-      "PHP",
-      "Python",
-      "Ruby",
-      "Scala",
-      "Scheme"
-    ];
-    $( "#tags" ).autocomplete({
-      source: availableTags
-    });
-  });
-  </script>
-
-
-  
-<div class="demo">
-
-<div class="ui-widget">
-  <label for="tags">Tags: </label>
-  <input id="tags">
-</div>
-
-</div> -->
-
-
-          </div>
+      <div class = "row">        
+        <div class="span6">
+          <form name="search" id="searchform">
+          Search: <input name="searchname" value="Do NOT press ENTER in me!"/>
+          <input type="button" onclick="Search(this.form)" value="Search"/>
+          <input type="button" onclick="CancleSearch()" value="Clear"/>
+        </form>
         </div>
       </div> 
+
+
+           
       
         <div class="hero-unit" style="width:800; height:600">
           <!-- Body conte nt -->
