@@ -414,7 +414,7 @@ function Normalize(array, minR, maxR)
 
 function ShowStatistics(array, title)
 {
-    var margin = {top: 30, right: 10, bottom: 10, left: 30},
+/*    var margin = {top: 30, right: 10, bottom: 10, left: 30},
     width = 800 - margin.right - margin.left,
     height = 500 - margin.top - margin.bottom;
 
@@ -509,7 +509,7 @@ var svgd = d3.select("#statistics").append("svgd")
   svgd.append("g")
       .attr("class", "y axis")
       .call(yAxis);
-
+*/
 
 }
 
