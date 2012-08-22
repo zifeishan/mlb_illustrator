@@ -1,3 +1,4 @@
+var thisIsTeam = true;
 var width = 800,
     height = 500;
 var color = d3.scale.category20();
@@ -56,10 +57,11 @@ stopped = false;
   var numNodes = thisMatch.nodes.length;
   var numEdges = thisMatch.links.length;
   var density = numEdges / (numNodes * numNodes + 1);
-  force.linkDistance(3000 / Math.sqrt(1+numNodes) * density)
+  force
+  .linkDistance(3000 / Math.sqrt(1+numNodes) * density)
     .friction(0.5)
-    .gravity(0.15 * Math.sqrt(1+numNodes))
-    .charge(-1000 * density)
+    .gravity(0.01 * Math.sqrt(1+numNodes))
+    .charge(-9000 * density)
     ;
 
   force

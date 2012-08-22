@@ -233,8 +233,13 @@ function ClickNode(svg, d)
 {
     CancleSearch();
     myMap = linkMap;
-    if(myMap == undefined || myMap.length == 0)
+    // if(myMap == undefined || myMap.length == 0
+    //     || myMap[0].length == 0)
+    if(typeof thisIsTeam != "undefined")
+    {
         myMap = [edgeMap];
+    }
+
     if(myMap == undefined || myMap.length == 0)
         return;
     
@@ -280,11 +285,17 @@ function ClickNode(svg, d)
         return 1;
       return d.opacity;
     });
+    svg.selectAll("circle.node").style("stroke-opacity", function(d){
+      if(!d.opacity)
+        return 1;
+      return d.opacity;
+    });
     svg.selectAll("line.link").style("opacity", function(d){
         var s = d.source;
         var t = d.target;
         if((!s.opacity || s.opacity == 1)
-            &&  (!t.opacity || t.opacity == 1))
+            &&  (!t.opacity || t.opacity == 1)
+            && (s.core || t.core))
             return 1;
         else
             return 0.1;
@@ -312,6 +323,9 @@ function CancleSelectNode(svg)
     }
 
     svg.selectAll("circle.node").style("fill-opacity", 1);
+    svg.selectAll("circle.node").style("stroke-opacity", 1);
+    svg.selectAll("line.link").style("opacity", 1);
+
     svg.selectAll("line.link").style("opacity", 1);
 
 

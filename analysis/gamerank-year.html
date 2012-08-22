@@ -157,35 +157,113 @@ body {
         <div class="row" id="statistics">
         </div>
       
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span4">
-          <h2>What is GameRank</h2>
-           <p>A ranking algorithm to measure the ability of pichers and batters!</p>
-           <p>Intuition from PageRank and HITS.</p>
-           <p>If a batter wins over good pitchers when hitting, then he is a good batter; if a pitcher wins over good batters when pitching, then he is a good pitcher.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
-        <div class="span4">
-          <h2>How to use</h2>
-          <p>First, select the year of the game; then, select the team. Then you can see the visualization results. If you need, you can change the ranking metric.</p>
-          <p>Nodes with black borders are pitchers; nodes with white borders are batters.</p>
-          <p>Nodes with the same color inside are in the same team.</p>
-          <p>Yellow edges indicates that a batter makes a successful attack; blue edges indicates that a pitcher makes a successful defend.</p>
+  <h1>How do I play with this?</h1>
+  <p class="marketing-byline">It takes just a minute to see through the following manual!</p>
+  <hr class = "soften"/>
 
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
-        <div class="span4">
-          <h2>Interactions</h2>
-           <p>Press "-" to zoom out, "+" to zoom in.</p>
-           <p>Click a node to fix its location on the screen.</p>
-           <p>Mouse on a node to see his name.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-       </div>
-        
-      </div>
+  <h2>Initialization</h2>
+  <div class="row">
+    <div class="span4">
+      <h3>1. Use a popular browser</h3>
+      <p>Chrome is recommended.</p>
+      <p>Your browser should support JavaScript, and should not be old IE (8.0 or older). Firefox is also NOT recommended.</p>
+      <p>Better to make sure you have access to global internet, to get the fonts and data packages you need.</p>
+    </div>
 
-      <hr>
+    <div class="span2">
+      <h3>2. First select a game year</h3>
+      <p>Click on the "Year" listbox to specify a year you want to see.</p>
+    </div>
+
+    <div class="span2">
+      <h3>3. Then select a team you like</h3>
+       <p>Click on the "Team" listbox to specify a team you want to see.</p>
+       <p>In some modes (Team Rank / Player rank in all teams), you do not need to specify teams.</p>
+   </div>
+
+    <div class="span4">
+      <h3>4. Wait "patiently" for it to come up</h3>
+       <p>A data packet for a game can be up to 6 MB. It might take a long while to download it, and about 10s to display it on your screen.</p>
+       <p>If it takes too long, please check your Internet access and browser version.</p>
+   </div>
+  </div>
+
+<hr class = "soften"/>
+  <h2>Definition</h2>
+  <div class="row">
+
+    <div class="span4">
+        <h3>1. Nodes are players.</h3>
+        <p>Nodes are players. </p>
+        <p>Bigger nodes are stronger players.</p>
+        <p>Nodes with same color inside are in the same team.</p>
+        <p>Nodes with BLACK border are pitchers, with WHITE border do not pitch.</p>
+     </div>
+
+    <div class="span8">
+      <h3>2. Edges are plays.</h3>
+      <p>Edges are plays, i.e. winning relationship between two players.</p>
+      <p>Color of edges indicates the KIND of a play: a successful defense (blue) or attack (yellow). </p>
+      <p>If a batter makes a hit or other successful attacks, then he initiates a yellow (attack) link towards the rival PITCHER.</p>
+      <p>If a pitcher strikes out a batter or leads his team to a successful defense, then he initiates a blue (defense) link towards the rival batter.</p>
+      <p>Nicer plays lead to thicker links, and multiple thin links will aggregate to a thick one.</p>
+   </div>
+  </div>
+
+<hr class = "soften"/>
+
+  <h2>Interaction</h2>
+  <div class="row">
+
+    <div class="span3">
+      <h3>1. Press "-" or "=" to compress / expand the layout</h3>
+      <p>If you think the layout is too tight or too loose, just press -/= to zoom out/in.</p>
+    </div>
+
+    <div class="span3">
+      <h3>2. Wait for a good layout and press ENTER to stop moving</h3>
+      <p>The network will keep changing until it gets a good appearance.</p>
+      <p>When you are satisfied with the current layout, press the ENTER key within the page, and it wil stop moving.</p>
+    </div>
+
+   <div class="span3">
+      <h3>3. Drag a node to change its position</h3>
+      
+       <p>You can drag any node to change its position.</p>
+   </div>
+
+   <div class="span3">
+      <h3>4. You can change the Ranking metric at any time</h3>
+      <p>Just choose a different ranking metric in the Rank-by box.</p>
+   </div>
+  </div>
+  <div class = "row">
+    <div class="span2">
+      <h3>5. Mouse over nodes and edges, to see players and plays</h3>
+      
+       <p>When your mouse points to a node in the graph, a card containing the information of the player will show up.</p>
+   </div>
+
+   <div class="span6">
+      <h3>6. Click a node to see all its neighbors; click it again to cancel this.</h3>
+      
+       <p>When you click a node, only itself, its neighbors and the links between them will be shown, and others turn opaque.</p>
+       <p>You can change nodes by clicking different ones. Just click one node in two consecutive times to cancel this.</p>
+       <p>You might have the question why some nodes are not opaque although they do not have links with your selected nodes. Actually there are links between them, but as the original network is too dense to layout, we have to filter some edges with small weight, yet still calculate GR and show neighbors based on the original network.</p>
+   </div>
+
+   <div class="span4">
+      <h3>7. Type (part of) the name in the Search bar to locate players</h3>
+      
+       <p>Just type a substring of any player's name in the search bar, and click "search", then your favorite player is located.</p>
+       <p>NEVER press ENTER after you enter the name! It will refresh the page. =_=|||</p>
+   </div>
+
+
+  </div>
+
+
+  <hr />
       
       <footer class="footer">
         <p class="pull-right"><a href="#">Back to top</a></p>

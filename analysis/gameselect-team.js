@@ -6,7 +6,7 @@ var gamerank = d3.select("#selrank");
 gameyear.append("option")
     .text("Please select a year");
 
-for(var i = 2011; i >= 1980; i--) {
+for(var i = 2011; i >= 1960; i--) {
   gameyear
     .append("option")
     .attr("value", i).text(i);      
