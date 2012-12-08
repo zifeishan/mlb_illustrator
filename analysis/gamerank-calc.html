@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GameRank</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; 
+        padding-bottom: 40px;
+
+      }
+    </style>
+<style type="text/css">
+/*
+body {
+  font: 10px sans-serif;
+}
+*/
+.bar rect {
+  fill: steelblue;
+}
+
+.bar text.value {
+  fill: white;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.axis path {
+  fill: none;
+}
+
+.x.axis line {
+  stroke: #fff;
+  stroke-opacity: .8;
+}
+
+.y.axis path {
+  stroke: black;
+}
+
+    </style>
+
+    
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+
+    <!-- Begin -->
+    <script type="text/javascript" src="../d3.v2.min.js"></script>
+    <script type="text/javascript" src="jsonutil.js"></script>
+    <script type="text/javascript" src="interaction.js"></script>
+    <script src="../assets/js/tracking.js"></script>
+    <link type="text/css" rel="stylesheet" href="myforce.css"/>
+  </head>
+  
+  <body>
+    <script type="text/javascript" />
+    
+    d3.json("../data/2011.json", function(json){
+      var allnodes = [], alllinks = [];
+      var match = [json];
+  var SelMatches = {"nodes":[], "links":[]};
+  AggregateNodes(match, allnodes, alllinks);
+  SelMatches.nodes = allnodes;
+  SelMatches.links = alllinks;
+  console.log(allnodes);
+  console.log(alllinks);
+
+
+  //Calc Radius (using Indegree)
+  
+
+  // var thisMatch = json.match[0];
+  var thisMatch = SelMatches;
+  nodes = thisMatch.nodes;
+  links = thisMatch.links;
+
+  var numNodes = thisMatch.nodes.length;
+  var numEdges = thisMatch.links.length;
+  
+
+
+      // links: binding!!!!!!! TODO
+  Radius = [];
+  var xlinks = [];
+  var nodemap = {};
+
+  for(var i = 0; i < numEdges; i++)
+  {
+    xlinks[i] = {};
+    xlinks[i].value = links[i].value;
+    xlinks[i].type = links[i].type;
+    xlinks[i].source = nodes[links[i].source];
+    xlinks[i].target = nodes[links[i].target];
+  }
+  InDegrees = GetInDegrees(nodes, xlinks);
+  GR = GetGameRanks(nodes, xlinks, 0.15, 20);
+  delete xlinks;
+
+  console.log(GR);
+
+  for(var i = 0; i < nodes.length; i++)
+  {
+    document.write(i);
+    document.write(','+nodes[i].name);
+    document.write(','+GR[0][i]);
+    document.write(','+GR[1][i]);
+    document.write('<br />');
+  }
+
+
+  });
+    </script>
+    
+  </body>
+</html>
